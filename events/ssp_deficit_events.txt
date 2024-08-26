@@ -1,0 +1,775 @@
+namespace = ssp_deficit
+
+event = {
+    id = ssp_deficit.0
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        random = {
+            chance = 90
+            set_global_flag = BritishMuseumVanquished
+        }
+    }
+}
+
+
+country_event = {
+    id = ssp_deficit.1
+    title = ssp_deficit.1.name
+    desc = ssp_deficit.1.desc
+    event_picture_background = GFX_spaceport_background #todo: replace me
+    is_triggered_only = yes
+
+    option = {
+        allow = {
+            NOT = {
+                has_country_flag = broken_caches #replace with anti-meme modifier and event xD
+            }
+        }
+        name = DEWIT
+        set_country_flag = broken_caches
+        add_resource = { minor_artifacts = 5000 }
+    }
+    option = {
+        name = RECONSIDER
+
+    }
+}
+
+# Negative Income
+country_event = {
+    id = ssp_deficit.10
+    title = ssp_deficit.10.name
+    desc = ssp_deficit.10.desc
+    show_sound = event_negative_income_advisor
+    is_triggered_only = yes
+
+    is_advisor_event = yes
+
+    trigger = {
+        is_ai = no
+        running_balance < -1
+        NOR = {
+            has_country_flag = advisor_losing_artifact
+            is_tutorial_level = 0
+        }
+    }
+
+    immediate = {
+        set_country_flag = advisor_losing_artifact
+    }
+
+    option = {
+        name = OK
+    }
+}
+
+country_event = {
+    id = ssp_deficit.20
+    title = ssp_relicseized.name
+    desc = ssp_deficit.20.desc
+    #event_picture_background = GFX_mega_art_installation_background
+    is_triggered_only = yes
+    situation = this
+    force_open = yes
+
+    immediate = {
+        hidden_effect = {
+            country_event = { id = ssp_deficit.200 }
+        }
+    }
+
+    option = {
+        name = OHNO
+        owner = {
+            set_country_flag = British_Seized_Assets_High
+            set_country_flag = BritishOfferAccepted
+        }
+        allow = {
+            NOT = {
+                OR = {
+                    is_gestalt = yes
+                    has_country_flag = DeniedBritish
+                }
+            }
+        }
+    }
+    option = {
+        name = BRITISHDENIED
+        owner = {
+            add_resource = { minor_artifacts = 1000 }
+            add_modifier = { modifier = ssp_raided_british days = 180 }
+            set_country_flag = DeniedBritish
+        }
+    }
+}
+
+country_event = {
+    #The British Museum seizes a relic
+    id = ssp_deficit.2001
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    has_global_flag = BritishMuseumVanquished
+                }
+            }
+            country_event = { id = ssp_deficit.2002 }
+        }
+    }
+
+}
+
+
+country_event = {
+    #The British Museum seizes a relic
+    id = ssp_deficit.2002
+    title = ssp_relicseized.name
+    desc = ssp_deficit.20a.desc
+    event_picture_background = GFX_evt_relic_world
+    is_triggered_only = yes
+
+    #Soncio if you stumble upon this, I don't know of a better way to get the list of relics, so this is the "how to do it phase". If you ever figure out
+    #How to get the relics an empire owns, lmk cause that would be super useful for this xD
+    immediate = {
+        locked_random_list = {
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_ancient_sword } }
+                remove_relic = r_ancient_sword
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_celestial_tear } }
+                remove_relic = r_celestial_tear
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_cetanas_heart } }
+                remove_relic = r_cetanas_heart
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_continuum } }
+                remove_relic = r_continuum
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_cryo_core } }
+                remove_relic = r_cryo_core
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_eternal_throne } }
+                remove_relic = r_eternal_throne
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_ever_spinning_top } }
+                remove_relic = r_ever_spinning_top
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_galatron } }
+                remove_relic = r_galatron
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_galaxy } }
+                remove_relic = r_galaxy
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_infinity_root } }
+                remove_relic = r_infinity_root
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_khans_throne } }
+                remove_relic = r_khans_throne
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_daedalus_seal } }
+                remove_relic = r_daedalus_seal
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_dragon_trophy } }
+                remove_relic = r_dragon_trophy
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_odryskan_crystal } }
+                remove_relic = r_odryskan_crystal
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_omnicodex } }
+                remove_relic = r_omnicodex
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_plasmic_core } }
+                remove_relic = r_plasmic_core
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_pox_sample } }
+                remove_relic = r_pox_sample
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_prethoryn_queen } }
+                remove_relic = r_prethoryn_queen
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_reality_perforator } }
+                remove_relic = r_reality_perforator
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_rubricator } }
+                remove_relic = r_rubricator
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_severed_head } }
+                remove_relic = r_severed_head
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_surveyor } }
+                remove_relic = r_surveyor
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_the_defragmentor } }
+                remove_relic = r_the_defragmentor
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_the_last_baol } }
+                remove_relic = r_the_last_baol
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_the_rulerchip } }
+                remove_relic = r_the_rulerchip
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_contingency_core } }
+                remove_relic = r_contingency_core
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_time_crystal } }
+                remove_relic = r_time_crystal
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_toxic_god } }
+                remove_relic = r_toxic_god
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_unbidden_warlock } }
+                remove_relic = r_unbidden_warlock
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_vacuum_flower } }
+                remove_relic = r_vacuum_flower
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_war_forge } }
+                remove_relic = r_war_forge
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_worm_scales } }
+                remove_relic = r_worm_scales
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = r_zro_crystal } }
+                remove_relic = r_zro_crystal
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = ssp_r_animarum } }
+                remove_relic = ssp_r_animarum
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = ssp_r_drive_core } }
+                remove_relic = ssp_r_drive_core
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = ssp_r_khyran_bacterium } }
+                remove_relic = ssp_r_khyran_bacterium
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = ssp_r_xenomorph_queen } }
+                remove_relic = ssp_r_xenomorph_queen
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_time_displacer } }
+                remove_relic = gpm_r_time_displacer
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_alien_eggs } }
+                remove_relic = gpm_r_alien_eggs
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_machine_world_core } }
+                remove_relic = gpm_r_machine_world_core
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_mars_rover } }
+                remove_relic = gpm_r_mars_rover
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_encyclopedia_galactica } }
+                remove_relic = gpm_r_encyclopedia_galactica
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_zero_energy_generator } }
+                remove_relic = gpm_r_zero_energy_generator
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_quantum_sphere } }
+                remove_relic = gpm_r_quantum_sphere
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_ai_architect } }
+                remove_relic = gpm_r_ai_architect
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_encrypted_sct } }
+                remove_relic = gpm_r_encrypted_sct
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_experimental_weapon } }
+                remove_relic = gpm_r_experimental_weapon
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_fallout_emergency_replicator } }
+                remove_relic = gpm_r_fallout_emergency_replicator
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_power_core } }
+                remove_relic = gpm_r_power_core
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_mysterious_shield_generator } }
+                remove_relic = gpm_r_mysterious_shield_generator
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_gravity_engine } }
+                remove_relic = gpm_r_gravity_engine
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_codex_administratum } }
+                remove_relic = gpm_r_codex_administratum
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_enigmatic_advisor } }
+                remove_relic = gpm_r_enigmatic_advisor
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_positronic_microchip } }
+                remove_relic = gpm_r_positronic_microchip
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_venerable_dreadnaught } }
+                remove_relic = gpm_r_venerable_dreadnaught
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_sentinel_queen } }
+                remove_relic = gpm_r_sentinel_queen
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_earthquake_engine } }
+                remove_relic = gpm_r_earthquake_engine
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_manufactorium_ship } }
+                remove_relic = gpm_r_manufactorium_ship
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_datacube } }
+                remove_relic = gpm_r_datacube
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_self_assembly_hub } }
+                remove_relic = gpm_r_self_assembly_hub
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_banner_of_the_fallen } }
+                remove_relic = gpm_r_banner_of_the_fallen
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_cloaking_device } }
+                remove_relic = gpm_r_cloaking_device
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_q_storage_compressor } }
+                remove_relic = gpm_r_q_storage_compressor
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_soul_gem } }
+                remove_relic = gpm_r_soul_gem
+            }
+            1 = {
+                modifier = { mult = 0 NOT = { has_relic = gpm_r_self_repairing_obelisk } }
+                remove_relic = gpm_r_self_repairing_obelisk
+            }
+            1 = {
+                country_event = { id = ssp_deficit.2003 }
+            }
+        }
+
+        set_country_flag = British_Seized_Assets_Low
+    }
+
+    option = {
+        name = WAIT
+    }
+}
+
+
+country_event = {
+    #Fails to seize
+    id = ssp_deficit.2003
+    title = ssp_relicseizedfail.name
+    desc = ssp_deficit.20a.desc
+    event_picture_background = GFX_evt_relic_world
+    is_triggered_only = yes
+
+    immediate = {
+        random_owned_leader = {
+            limit = {
+                NOT = {
+                    is_councilor = yes
+                }
+            }
+            kill_leader = {}
+        }
+    }
+}
+
+country_event = {
+    id = ssp_deficit.21
+    title = ssp_vanquished_british
+    desc = ssp_vanquished_british.desc
+    event_picture_background = GFX_mega_art_installation_background
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                has_country_flag = British_Seized_Assets_Low
+            }
+            country_event = { id = ssp_deficit.22 }
+        }
+        else_if = {
+            limit = {
+                has_country_flag = British_Seized_Assets_High
+            }
+            country_event = { id = ssp_deficit.22 }
+            country_event = { id = ssp_deficit.22 }
+            random = {
+                chance = 5
+                country_event = { id = ssp_deficit.22 }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = ssp_deficit.22
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+              locked_random_list = {
+            1 = {
+                modifier = { mult = 0 has_relic = r_ancient_sword }
+                add_relic = r_ancient_sword
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_celestial_tear }
+                add_relic = r_celestial_tear
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_continuum }
+                add_relic = r_continuum
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_ever_spinning_top }
+                add_relic = r_ever_spinning_top
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_galatron }
+                add_relic = r_galatron
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_galaxy }
+                add_relic = r_galaxy
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_infinity_root }
+                add_relic = r_infinity_root
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_khans_throne }
+                add_relic = r_khans_throne
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_cryo_core }
+                add_relic = r_cryo_core
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_daedalus_seal }
+                add_relic = r_daedalus_seal
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_dragon_trophy }
+                add_relic = r_dragon_trophy
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_odryskan_crystal }
+                add_relic = r_odryskan_crystal
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_omnicodex }
+                add_relic = r_omnicodex
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_plasmic_core }
+                add_relic = r_plasmic_core
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_pox_sample }
+                add_relic = r_pox_sample
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_prethoryn_queen }
+                add_relic = r_prethoryn_queen
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_reality_perforator }
+                add_relic = r_reality_perforator
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_rubricator }
+                add_relic = r_rubricator
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_severed_head }
+                add_relic = r_severed_head
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_surveyor }
+                add_relic = r_surveyor
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_the_defragmentor }
+                add_relic = r_the_defragmentor
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_the_last_baol }
+                add_relic = r_the_last_baol
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_the_rulerchip }
+                add_relic = r_the_rulerchip
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_contingency_core }
+                add_relic = r_contingency_core
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_time_crystal }
+                add_relic = r_time_crystal
+            }
+            1 = {
+                modifier = { mult = 0 AND = { has_relic = r_toxic_god NOT = { any_country = { any_situation = { is_situation_type = situation_toxic_knights }}}}}
+                add_relic = r_toxic_god
+            }
+            1 = {
+                modifier = { mult = 0 AND = { NOT = { has_relic = r_vacuum_flower } NOT = { any_country = { any_situation = { is_situation_type = situation_kaleidoscope }}}}}
+                add_relic = r_vacuum_flower
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_war_forge }
+                add_relic = r_war_forge
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_worm_scales }
+                add_relic = r_worm_scales
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = r_zro_crystal }
+                add_relic = r_zro_crystal
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_time_displacer }
+                add_relic = gpm_r_time_displacer
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_alien_eggs }
+                add_relic = gpm_r_alien_eggs
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_machine_world_core }
+                add_relic = gpm_r_machine_world_core
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_mars_rover }
+                add_relic = gpm_r_mars_rover
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_encylopedia_galactica }
+                add_relic = gpm_r_encylopedia_galactica
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_zero_energy_generator }
+                add_relic = gpm_r_zero_energy_generator
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_quantum_sphere }
+                add_relic = gpm_r_quantum_sphere
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_ai_architect }
+                add_relic = gpm_r_ai_architect
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_encrypted_sct }
+                add_relic = gpm_r_encrypted_sct
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_experimental_weapon }
+                add_relic = gpm_r_experimental_weapon
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_fallout_emergency_replicator }
+                add_relic = gpm_r_fallout_emergency_replicator
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_power_core }
+                add_relic = gpm_r_power_core
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_mysterious_shield_generator }
+                add_relic = gpm_r_mysterious_shield_generator
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_gravity_engine }
+                add_relic = gpm_r_gravity_engine
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_codex_administratum }
+                add_relic = gpm_r_codex_administratum
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_enigmatic_advisor }
+                add_relic = gpm_r_enigmatic_advisor
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_positronic_microchip }
+                add_relic = gpm_r_positronic_microchip
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_venerable_dreadnaught }
+                add_relic = gpm_r_venerable_dreadnaught
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_sentinel_queen }
+                add_relic = gpm_r_sentinel_queen
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_earthquake_engine }
+                add_relic = gpm_r_earthquake_engine
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_manufactorium_ship }
+                add_relic = gpm_r_manufactorium_ship
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_datacube }
+                add_relic = gpm_r_datacube
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_self_assembly_hub }
+                add_relic = gpm_r_self_assembly_hub
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_banner_of_the_fallen }
+                add_relic = gpm_r_banner_of_the_fallen
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_cloaking_device }
+                add_relic = gpm_r_cloaking_device
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_q_storage_compressor }
+                add_relic = gpm_r_q_storage_compressor
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_soul_gem }
+                add_relic = gpm_r_soul_gem
+            }
+            1 = {
+                modifier = { mult = 0 has_relic = gpm_r_self_repairing_obelisk }
+                add_relic = gpm_r_self_repairing_obelisk
+            }
+        }
+    }
+}
+
+country_event = {
+    #The British Museum seizes all relics
+    id = ssp_deficit.200
+    hide_window = yes
+    is_triggered_only = yes
+
+        immediate = {
+            remove_relic = r_ancient_sword
+            remove_relic = r_celestial_tear
+            remove_relic = r_cetanas_heart
+            remove_relic = r_continuum
+            remove_relic = r_cryo_core
+            remove_relic = r_eternal_throne
+            remove_relic = r_ever_spinning_top
+            remove_relic = r_galatron
+            remove_relic = r_galaxy
+            remove_relic = r_infinity_root
+            remove_relic = r_khans_throne
+            remove_relic = r_daedalus_seal
+            remove_relic = r_dragon_trophy
+            remove_relic = r_odryskan_crystal
+            remove_relic = r_omnicodex
+            remove_relic = r_plasmic_core
+            remove_relic = r_pox_sample
+            remove_relic = r_prethoryn_queen
+            remove_relic = r_reality_perforator
+            remove_relic = r_rubricator
+            remove_relic = r_severed_head
+            remove_relic = r_surveyor
+            remove_relic = r_the_defragmentor
+            remove_relic = r_the_last_baol
+            remove_relic = r_the_rulerchip
+            remove_relic = r_contingency_core
+            remove_relic = r_time_crystal
+            remove_relic = r_toxic_god
+            remove_relic = r_unbidden_warlock
+            remove_relic = r_vacuum_flower
+            remove_relic = r_war_forge
+            remove_relic = r_worm_scales
+            remove_relic = r_zro_crystal
+            remove_relic = gpm_r_time_displacer
+            remove_relic = gpm_r_alien_eggs
+            remove_relic = gpm_r_machine_world_core
+            remove_relic = gpm_r_mars_rover
+            remove_relic = gpm_r_encyclopedia_galactica
+            remove_relic = gpm_r_zero_energy_generator
+            remove_relic = gpm_r_quantum_sphere
+            remove_relic = gpm_r_ai_architect
+            remove_relic = gpm_r_encrypted_sct
+            remove_relic = gpm_r_experimental_weapon
+            remove_relic = gpm_r_fallout_emergency_replicator
+            remove_relic = gpm_r_power_core
+            remove_relic = gpm_r_mysterious_shield_generator
+            remove_relic = gpm_r_gravity_engine
+            remove_relic = gpm_r_codex_administratum
+            remove_relic = gpm_r_enigmatic_advisor
+            remove_relic = gpm_r_positronic_microchip
+            remove_relic = gpm_r_venerable_dreadnaught
+            remove_relic = gpm_r_sentinel_queen
+            remove_relic = gpm_r_earthquake_engine
+            remove_relic = gpm_r_manufactorium_ship
+            remove_relic = gpm_r_datacube
+            remove_relic = gpm_r_self_assembly_hub
+            remove_relic = gpm_r_banner_of_the_fallen
+            remove_relic = gpm_r_cloaking_device
+            remove_relic = gpm_r_q_storage_compressor
+            remove_relic = gpm_r_soul_gem
+            remove_relic = gpm_r_self_repairing_obelisk
+        }
+}
+
