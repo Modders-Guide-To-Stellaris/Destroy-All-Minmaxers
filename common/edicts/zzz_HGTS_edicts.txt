@@ -1,0 +1,34 @@
+damn_the_consequences = {
+    length = @EdictPerpetual
+    icon = "GFX_edict_type_policy"
+
+    edict_lock_in_months = 60
+
+    resources = {
+        category = edicts
+        cost = {
+            unity = @Edict2Cost
+            multiplier = value:edict_size_effect
+        }
+        upkeep = {
+            unity = @Edict2Cost
+            multiplier = value:edict_size_effect
+        }
+    }
+
+    modifier = {
+        custom_tooltip = "edict_damn_the_consequences_effects"
+        show_only_custom_tooltip = no
+        planet_pops_organics_upkeep_mult = 1
+    }
+
+    potential = {
+        has_origin = origin_overtuned
+    }
+
+    allow = { }
+
+    ai_weight = {
+        weight = 0
+    }
+}
