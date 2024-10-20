@@ -1,5 +1,6 @@
+
 damn_the_consequences = {
-    length = @EdictPerpetual
+    length = -1
     icon = "GFX_edict_type_policy"
 
     edict_lock_in_months = 60
@@ -7,11 +8,11 @@ damn_the_consequences = {
     resources = {
         category = edicts
         cost = {
-            unity = @Edict2Cost
+            unity = 20
             multiplier = value:edict_size_effect
         }
         upkeep = {
-            unity = @Edict2Cost
+            unity = 20
             multiplier = value:edict_size_effect
         }
     }
