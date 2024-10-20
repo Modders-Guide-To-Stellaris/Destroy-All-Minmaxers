@@ -4,5 +4,5 @@ tags={
 	"Gameplay"
 }
 name="The HGTS Towel"
-supported_version="v3.12.5"
+supported_version="v3.13.2"
 remote_file_id="3219352531"
