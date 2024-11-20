@@ -1,5 +1,0 @@
-﻿l_simp_chinese:
-
- tech_identity_copy_desc: "我们可以从一个合成人身上复制人格和记忆到一个新的机械身躯中。这些复制体具有可预期的技能组，但却缺乏创新。 $dttr_tech_identity_copy_desc$"
- tech_identity_fusion_desc: "将两个或更多合成人的人格和记忆组合进一个机械躯体里能创造新的且有一定独立性的人格。 $dttr_tech_identity_fusion_desc$"
- tech_identity_initialization_desc: "我们可以将人格核心进行初始化并为其创造虚拟的童年。尽管代价高昂，但我们可以模拟出创造人格的最佳体验。 $dttr_tech_identity_initialization_desc$"

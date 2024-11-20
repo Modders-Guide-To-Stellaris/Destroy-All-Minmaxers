@@ -1,9 +1,0 @@
-﻿l_japanese:
-
- tech_diplo_weight_1_desc: "その分野における専門知識を有する者こそが、 意志決定の権限をもつべきだという急進的なアイデアに従う形で、 我々は社会を改める。 $dttr_tech_diplo_weight_1_desc$"
- tech_mega_shipyard_desc: "圧倒的な造船能力をもつ無重力巨大造船所。 一度に大量の船を建造できる。 $dttr_tech_mega_shipyard_desc$"
- tech_juggernaut_desc: "空前の規模の移動宇宙基地ジャガーノートは、 既存の攻勢戦術を過去のものにするほどの力をもつ。 $dttr_tech_juggernaut_desc$"
- tech_advanced_metallurgy_1_desc: "セラミック金属の利用を拡大することで、 合金の産出量を増やす。 $dttr_tech_advanced_metallurgy_1_desc$"
- tech_advanced_metallurgy_2_desc: "時代遅れのセラミック金属部品を最新技術に交換することにより、 鋳造設備をより高温で長期間使用できるようになり、 生産量が増加する。 $dttr_tech_advanced_metallurgy_2_desc$"
- tech_consumer_good_refinement_1_desc: "基礎管理AIを導入し、 需要と供給を最適化させ廃棄物を削減する。 $dttr_tech_consumer_good_refinement_1_desc$"
- tech_consumer_good_refinement_2_desc: "高度なAIを導入し、 消費者の需要を確実に予測する。 $dttr_tech_consumer_good_refinement_2_desc$"

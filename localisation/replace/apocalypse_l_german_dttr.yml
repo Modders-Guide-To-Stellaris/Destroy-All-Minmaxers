@@ -1,8 +1,0 @@
-﻿l_german:
-
- tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
- tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
- tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
- tech_pk_godray_desc: "Ein mysteriöser Katalysator, der bestimmte psionische Wellenlängen verstärkt und in der Lage ist, Halluzinationen (religiöse Erfahrungen) in biologische Gehirne zu pflanzen und schwere Störungen (Hirntod) in elektronischen Gehirnen auszulösen. $dttr_tech_pk_godray_desc$"
- tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
- tech_ftl_inhibitor_desc: "Gravitationswellenprojektor können verwendet werden, um räumlich begrenzte Bereiche zu schaffen, in denen ein sicherer Eintritt in den Hyperraum unmöglich ist. Der immense Energiebedarf und die Größe der Projektoren verbieten ihren Einsatz allerdings auf allem, was kleiner als eine Sternenbasis ist. $dttr_tech_ftl_inhibitor_desc$"

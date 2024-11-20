@@ -1,5 +1,0 @@
-﻿l_japanese:
-
- tech_identity_copy_desc: "我々は人工生命体の自我と記憶を新しい機体に複製することができる。 複製品はありきたりな技能を獲得するが、 陳腐な会話が助長される。 $dttr_tech_identity_copy_desc$"
- tech_identity_fusion_desc: "機体に2つ以上の人工生命体の自我と記憶を融合することで、 幾分か個性を持った新たな個体が作られる。 $dttr_tech_identity_fusion_desc$"
- tech_identity_initialization_desc: "我々は自我カーネルを初期化し、 それを仮想現実の幼少期に供給することができる。 費用はかかるものの、 生産性のある人格を生成するのに最適な経験をシミュレートすることが可能だ。 $dttr_tech_identity_initialization_desc$"

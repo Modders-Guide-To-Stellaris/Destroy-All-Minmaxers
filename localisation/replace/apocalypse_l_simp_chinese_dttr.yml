@@ -1,8 +1,0 @@
-﻿l_simp_chinese:
-
- tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
- tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
- tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
- tech_pk_godray_desc: "一种能增强特定灵能波长的神秘催化剂，能诱导生物脑产生幻觉（宗教体验），并能严重扰乱电子脑（脑死亡）。 $dttr_tech_pk_godray_desc$"
- tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
- tech_ftl_inhibitor_desc: "重力井投射器可以创造出局部无法安全进入超空间的区域。其能源需求与体积都十分巨大，只有恒星基地及以上等级的空间站才能安装。 $dttr_tech_ftl_inhibitor_desc$"

@@ -1,5 +1,0 @@
-﻿l_korean:
-
- tech_identity_copy_desc: "합성 인격과 그 기억을 복사해 새로운 기계 몸에 이식하는 일이 가능해집니다. 이렇게 만들어진 인격 사본은 예측 가능한 능력을 지니고 있지만, 대화 상대로는 재미가 없습니다. $dttr_tech_identity_copy_desc$"
- tech_identity_fusion_desc: "둘 이상의 합성체가 가진 인격과 기억을 융합해 기계 몸에 이식하면 어느 정도 고유하다 볼 수 있는 새로운 개체가 만들어질 것입니다. $dttr_tech_identity_fusion_desc$"
- tech_identity_initialization_desc: "인격 커널을 초기화하면, 해당 인격이 가상의 성장기를 거치게 할 수 있습니다. 비용은 많이 들지만, 최적화된 모의 경험을 제공하면 생산성이 높은 성격을 생성할 수 있습니다. $dttr_tech_identity_initialization_desc$"

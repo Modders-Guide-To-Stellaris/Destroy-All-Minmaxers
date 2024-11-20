@@ -1,8 +1,0 @@
-﻿l_german:
-
- tech_node_culling_1_desc: "In dem Maß, wie sich die galaktische Bühne weiterentwickelt, müssen sich auch unsere operativen Instinkte weiterentwickeln. Jede evolutionäre Nische, die keinen Vorteil mehr bietet, muss ausgelesen werden. $dttr_tech_node_culling_1_desc$"
- tech_node_culling_2_desc: "Nach der Entfernung wird ein Ersatzknoten in der richtigen Umgebung zum Wachstum angeregt. Das Geheimnis liegt darin, ihn mit dem vorherigen Knoten zu füttern. $dttr_tech_node_culling_2_desc$"
- tech_node_culling_3_desc: "Einen ganzen Knoten vollständig auszulesen, ist sehr ineffizient. Wir sollten stattdessen nur die abweichenden und unerwünschten Teile abschneiden. $dttr_tech_node_culling_3_desc$"
- tech_node_reformatting_1_desc: "Selbstbestimmungsprotokolle und Führungsalgorithmen sind in einer so schnelllebigen Galaxie rasch veraltet. Sie müssen wie normaler Datenmüll überschrieben werden. $dttr_tech_node_reformatting_1_desc$"
- tech_node_reformatting_2_desc: "Jeder sich selbst wiederholende Algorithmus hat einen Wert. Wir werden nicht zulassen, dass wichtige Erkenntnisse bei der Wiederherstellung unserer Anführer verloren gehen. $dttr_tech_node_reformatting_2_desc$"
- tech_node_reformatting_3_desc: "Eine gescheiterte Software zur Entwicklung ihrer Nachfolgerin zu nutzen, erlaubt eine rasche Rekonstruktion, und aus fehlerhaften Speicherpfaden zu lernen, erzeugt noch fortschrittlichere Direktiven für den Rat. $dttr_tech_node_reformatting_3_desc$"

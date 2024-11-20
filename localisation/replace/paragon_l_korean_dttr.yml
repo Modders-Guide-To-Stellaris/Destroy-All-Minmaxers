@@ -1,8 +1,0 @@
-﻿l_korean:
-
- tech_node_culling_1_desc: "은하 무대가 발전함에 따라 우리의 운영 본능도 진화해야 합니다. 우리에게 이점을 주지 않는 방향으로 진화한 부분은 퇴출해야 합니다. $dttr_tech_node_culling_1_desc$"
- tech_node_culling_2_desc: "노드를 퇴출시킨 뒤, 대체 노드가 제대로 된 환경에서 자랄 수 있도록 조치합니다. 노드를 성장시키는 비결은 퇴출된 노드를 공급하는 것입니다. $dttr_tech_node_culling_2_desc$"
- tech_node_culling_3_desc: "노드 전체를 퇴출하는 것은 매우 비효율적입니다. 그 대신 엇나간 부분과 필요 없는 부위만 잘라내면 됩니다. $dttr_tech_node_culling_3_desc$"
- tech_node_reformatting_1_desc: "자기 결정 프로토콜과 인도 알고리즘은 요즘처럼 빠르게 변화하는 은하 무대에서는 금세 뒤처질 수 있습니다. 다른 정크 데이터와 마찬가지로, 이러한 요소 또한 덮어써야 합니다. $dttr_tech_node_reformatting_1_desc$"
- tech_node_reformatting_2_desc: "자기 반복 알고리즘도 저마다 가치가 있는 법입니다. 지도자를 복원할 때 중요한 학습 기회를 놓치지 않도록 조치할 것입니다. $dttr_tech_node_reformatting_2_desc$"
- tech_node_reformatting_3_desc: "실패한 소프트웨어를 사용해 후속 소프트웨어를 발달시키면, 재건 속도가 빨라집니다. 결함 있는 메모리 경로로부터 학습하면, 훨씬 진보된 평의회 지시 체계를 구축할 수 있습니다. $dttr_tech_node_reformatting_3_desc$"

@@ -1,8 +1,0 @@
-﻿l_simp_chinese:
-
- tech_node_culling_1_desc: "随着星海舞台的风云变幻，我们的运筹本能也应如此。任何不再具有优势的进化位阶将被剔除。 $dttr_tech_node_culling_1_desc$"
- tech_node_culling_2_desc: "移除之后，会有一个替换性节点将被鼓励在合适的环境中成长起来。诀窍就是用前一个节点来滋养它。 $dttr_tech_node_culling_2_desc$"
- tech_node_culling_3_desc: "踢出整个节点非常没有效率。相反，只需要修剪一些不需要的枝叶就行。 $dttr_tech_node_culling_3_desc$"
- tech_node_reformatting_1_desc: "在快速发展的星系舞台，自决协议和制导算法可能会过时。它们将被像其他垃圾数据一样被覆盖掉。 $dttr_tech_node_reformatting_1_desc$"
- tech_node_reformatting_2_desc: "每个自迭代算法都有它的价值。我们不会让重要的学识白白浪费在恢复我们的领袖身上。 $dttr_tech_node_reformatting_2_desc$"
- tech_node_reformatting_3_desc: "使用一个失败的软件来开发它的继任者可以快速重建。从错误的记忆路径中学习可以产生更高级的内阁指令。 $dttr_tech_node_reformatting_3_desc$"

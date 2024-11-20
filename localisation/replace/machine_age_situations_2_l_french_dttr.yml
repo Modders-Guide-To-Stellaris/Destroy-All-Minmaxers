@@ -1,5 +1,0 @@
-﻿l_french:
-
- tech_identity_copy_desc: "Nous serons en mesure de reproduire l'identité et les souvenirs d'un corps synthétique dans un nouveau corps mécanique. Les reproductions possèdent des ensembles de compétences prévisibles, mais elles manquent de conversation. $dttr_tech_identity_copy_desc$"
- tech_identity_fusion_desc: "La fusion des identités et des souvenirs de deux corps synthétiques ou plus dans un corps mécanique donnera naissance à de nouveaux individus uniques. $dttr_tech_identity_fusion_desc$"
- tech_identity_initialization_desc: "Nous serons en mesure d'initialiser un noyau identitaire et de lui donner une enfance virtuelle. Cela a un coût, mais nous pourrons simuler les expériences optimales afin de générer des personnalités productives. $dttr_tech_identity_initialization_desc$"

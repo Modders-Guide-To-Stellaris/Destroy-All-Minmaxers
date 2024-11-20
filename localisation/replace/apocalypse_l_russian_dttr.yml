@@ -1,8 +1,0 @@
-﻿l_russian:
-
- tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
- tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
- tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
- tech_pk_godray_desc: "Тайный катализатор, усиливающий псионические волны определенной длины, способные вызывать галлюцинации (религиозные переживания) в биологическом мозгу и серьезные нарушения (смерть мозга) в электронном. $dttr_tech_pk_godray_desc$"
- tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
- tech_ftl_inhibitor_desc: "Проекторы гравитационного колодца можно использовать для создания локализованных карманов пространства там, где безопасный вход в гиперпространство невозможен. Огромные требования к мощности и размер проекторов не позволяют их использовать на объектах меньше космической базы. $dttr_tech_ftl_inhibitor_desc$"

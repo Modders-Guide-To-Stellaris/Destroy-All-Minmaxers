@@ -1,7 +1,0 @@
-﻿l_russian:
-
- tech_bio_reactor_desc: "$building_bio_reactor_desc$ $dttr_tech_bio_reactor_desc$"
- tech_bio_reactor_2_desc: "$building_bio_reactor_2_desc$ $dttr_tech_bio_reactor_2_desc$"
- tech_reactor_booster_1_desc: "$REACTOR_BOOSTER_1_DESC$ $dttr_tech_reactor_booster_1_desc$"
- tech_reactor_booster_2_desc: "$REACTOR_BOOSTER_2_DESC$ $dttr_tech_reactor_booster_2_desc$"
- tech_reactor_booster_3_desc: "$REACTOR_BOOSTER_3_DESC$ $dttr_tech_reactor_booster_3_desc$"
