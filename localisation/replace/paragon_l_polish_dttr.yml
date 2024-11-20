@@ -1,0 +1,8 @@
+﻿l_polish:
+
+ tech_node_culling_1_desc: "Nasz zmysł operacyjny powinny ewoluować na równi z galaktyczną sceną. Wszelkie nisze, które nie zapewniają nam ewolucyjnej przewagi, zostaną zlikwidowane. $dttr_tech_node_culling_1_desc$"
+ tech_node_culling_2_desc: "Po usunięciu węzła wspomagamy w odpowiednim środowisku wzrost węzła zastępczego. Sekret polega na karmieniu go poprzednim węzłem. $dttr_tech_node_culling_2_desc$"
+ tech_node_culling_3_desc: "Likwidacja całego węzła jest bardzo niewydajna. Zamiast tego należy przycinać jedynie dywergentne i niepożądane płaty. $dttr_tech_node_culling_3_desc$"
+ tech_node_reformatting_1_desc: "Protokoły samostanowienia i algorytmy przewodzące mogą szybko stać się zbędne na dynamicznie rozwijającej się scenie galaktycznej. Należy je nadpisać, tak jak inne niepotrzebne dane. $dttr_tech_node_reformatting_1_desc$"
+ tech_node_reformatting_2_desc: "Każdy samopowtarzalny algorytm ma swoją wartość. Nie pozwolimy, by ważna nauka poszła na marne podczas przywracania naszych liderów. $dttr_tech_node_reformatting_2_desc$"
+ tech_node_reformatting_3_desc: "Wykorzystanie nieudanego oprogramowania do opracowania kolejnej wersji umożliwia szybką rekonstrukcję. Uczenie się na błędnych ścieżkach pamięci generuje jeszcze bardziej zaawansowane dyrektywy rady. $dttr_tech_node_reformatting_3_desc$"

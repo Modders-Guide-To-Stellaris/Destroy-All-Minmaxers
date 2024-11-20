@@ -1,0 +1,8 @@
+﻿l_braz_por:
+
+ tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
+ tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
+ tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
+ tech_pk_godray_desc: "Um catalisador arcano que amplifica certos comprimentos de onda psiônicos, capazes de induzir alucinações (experiências religiosas) em cérebros biológicos, e uma interrupção severa (morte cerebral) em cérebros elétricos. $dttr_tech_pk_godray_desc$"
+ tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
+ tech_ftl_inhibitor_desc: "Projetores de poços de gravidade podem ser usados para criar bolsões localizados de espaço onde a entrada segura no hiperespaço é impossível. A imensa quantidade de poder necessária e o tamanho dos projetores proíbe o seu uso em qualquer coisa menor que uma base estelar. $dttr_tech_ftl_inhibitor_desc$"

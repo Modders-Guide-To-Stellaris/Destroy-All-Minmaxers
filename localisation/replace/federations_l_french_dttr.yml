@@ -1,0 +1,9 @@
+﻿l_french:
+
+ tech_diplo_weight_1_desc: "Nous devons réorganiser notre société pour nous conformer à une idée radicale : quiconque possède l'expertise dans un domaine donné doit être chargé de prendre les décisions qui s'y rapportent. $dttr_tech_diplo_weight_1_desc$"
+ tech_mega_shipyard_desc: "Un chantier de construction sous 0 g aux proportions colossales, capable de mener à bien simultanément plusieurs projets de construction de vaisseaux. $dttr_tech_mega_shipyard_desc$"
+ tech_juggernaut_desc: "Base spatiale mobile aux proportions inégalées, la classe Mastodonte fait passer la guerre offensive dans une nouvelle ère. $dttr_tech_juggernaut_desc$"
+ tech_advanced_metallurgy_1_desc: "L'emploi généralisé à des céramiques améliorées dans l'industrie permet d'accroître grandement la production sidérurgique. $dttr_tech_advanced_metallurgy_1_desc$"
+ tech_advanced_metallurgy_2_desc: "Remplaçant par des technologies avancées les matériaux céramo-métalliques, désormais dépassés, les forges peuvent chauffer plus fort et plus longtemps. Cela accroît donc leur production. $dttr_tech_advanced_metallurgy_2_desc$"
+ tech_consumer_good_refinement_1_desc: "Des I.A. administratives basiques peuvent être utilisées pour gérer la demande et les lignes de production afin de réduire le gaspillage. $dttr_tech_consumer_good_refinement_1_desc$"
+ tech_consumer_good_refinement_2_desc: "En recourant à des I.A. avancées, il est possible de prévoir avec une grande fiabilité les demandes avant même qu'elles soient exprimées. $dttr_tech_consumer_good_refinement_2_desc$"

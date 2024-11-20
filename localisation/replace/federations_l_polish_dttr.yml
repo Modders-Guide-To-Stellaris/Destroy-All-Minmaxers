@@ -1,0 +1,9 @@
+﻿l_polish:
+
+ tech_diplo_weight_1_desc: "Zreorganizujemy nasze społeczeństwo według radykalnej idei, która mówi, że ci, którzy dysponują dogłębną znajomością jakiejś dziedziny, powinni podejmować wszystkie dotyczące jej decyzje. $dttr_tech_diplo_weight_1_desc$"
+ tech_mega_shipyard_desc: "Niesamowicie wielki plac budowy w stanie nieważkości. Można tu realizować kilka projektów montażu okrętów równocześnie. $dttr_tech_mega_shipyard_desc$"
+ tech_juggernaut_desc: "Okręt klasy \ $dttr_tech_juggernaut_desc$"
+ tech_advanced_metallurgy_1_desc: "Powszechne stosowanie zaawansowanej ceramiki w przemyśle może zwiększyć sprawność metalurgii. $dttr_tech_advanced_metallurgy_1_desc$"
+ tech_advanced_metallurgy_2_desc: "Zastąpienie przestarzałego sprzętu metaloceramicznego najnowocześniejszą technologią umożliwi nam zwiększenie temperatury i długości działania odlewni, co usprawni produkcję. $dttr_tech_advanced_metallurgy_2_desc$"
+ tech_consumer_good_refinement_1_desc: "Można wykorzystać podstawową SI administracyjną w celu usprawnienia linii zaopatrzeniowych i dostawczych, co zmniejszy ilość odpadów. $dttr_tech_consumer_good_refinement_1_desc$"
+ tech_consumer_good_refinement_2_desc: "Dzięki zaawansowanej SI możemy niezawodnie przewidywać z wyprzedzeniem pojawienie się popytu. $dttr_tech_consumer_good_refinement_2_desc$"

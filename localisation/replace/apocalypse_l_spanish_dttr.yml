@@ -1,0 +1,8 @@
+﻿l_spanish:
+
+ tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
+ tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
+ tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
+ tech_pk_godray_desc: "Un catalizador arcano que amplifica ciertas longitudes de ondas psiónicas capaces de inducir alucinaciones (experiencias religiosas) en cerebros biológicos y graves disrupciones (muerte cerebral) en los electrónicos. $dttr_tech_pk_godray_desc$"
+ tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
+ tech_ftl_inhibitor_desc: "Se pueden usar proyectores de pozo gravitatorio para crear bolsillos de espacio localizados en los que es imposible entrar al hiperespacio. Los inmensos requisitos de energía y el tamaño de los proyectores impiden su uso en nada menor que una base estelar. $dttr_tech_ftl_inhibitor_desc$"

@@ -1,0 +1,13 @@
+﻿l_korean:
+
+ tech_nanite_repair_system_desc: "연기 나는 청소부의 잔해에서 수십억 개의 나노 기계로 구성된 매우 효율적인 선체 자동 수리 시스템을 발견했고 우리가 사용할 수 있도록 재활용했습니다. 청소부가 버려진 고대의 폐허에서 훔친 것인지, 아니면 처음부터 청소부에 탑재되었던 시스템인지는 확실하지 않습니다. $dttr_tech_nanite_repair_system_desc$"
+ tech_neuroregeneration_desc: "특정 종족의 게놈에 맞춰졌을 때, 이러한 형태의 조직 공학은 대상자의 뉴런과 축삭 돌기, 시냅스 재생을 크게 발달시키는 강력한 신경 재생적 특성을 보여 줍니다. $dttr_tech_neuroregeneration_desc$"
+ tech_nanite_autocannon_desc: "최첨단 오토캐논으로, 표적을 향해 폭발을 일으켜 나노봇 구름을 살포하는 포탄을 발사합니다. 이때 나노봇은 보호막을 무력화하고 선체를 관통합니다. $dttr_tech_nanite_autocannon_desc$"
+ tech_nanite_flak_batteries_desc: "기존의 설계를 개량한 대공 포대로, 공격기를 갉아 먹을 수 있는 나노봇 통을 발사합니다. 전투기 조종사에게는 악몽 그 자체죠. $dttr_tech_nanite_flak_batteries_desc$"
+ tech_gargantuan_evolution_desc: "공허 태생체의 알은 가장 가까운 항성에서 에너지를 흡수하고 보존해, 가혹한 우주의 환경을 견디도록 진화했습니다. $dttr_tech_gargantuan_evolution_desc$"
+ tech_mine_aldar_desc: "불안정한 알다르는 다른 평범한 광석과 섞인 상태에서만 발견됩니다. 장비와 작업자에게 큰 피해를 입히지 않고 광물에서 성공적으로 알다르 크리스탈을 추출하기 위해서는 진보된 자동 촉각 기계가 필요합니다. $dttr_tech_mine_aldar_desc$"
+ tech_repeatable_lcluster_clue_desc: "나노 기계와 아공간 현상 분야를 집중적으로 연구하면, $lgate_disabled$의 수수께끼에 관한 새로운 §Y$clue$§!을 얻을 수 있을 것입니다. $dttr_tech_repeatable_lcluster_clue_desc$"
+ tech_lgate_activation_desc: "L-게이트는 현재 우리의 아공간 역학에 대한 이해를 부정합니다. 게이트를 열어 이동하기 전에 이 문제를 해결해야 합니다. $dttr_tech_lgate_activation_desc$"
+ tech_experimental_subspace_navigation_desc: "홀로 있는 과학선은 자연적으로 생성된 초공간 항로에서 벗어나, 알려졌지만 도달할 수 없는 목적지로 항해를 시도할 수 있습니다. $dttr_tech_experimental_subspace_navigation_desc$"
+ tech_databank_uplinks_desc_hive_mind: "탐사 드론의 참신한 사용법이 발견되었습니다. 궤도에 탐사 드론을 두고 이들의 정신 연결을 행성 규모로 증폭한 결과, 새로운 발견의 길이 드러났습니다. 노동자 드론의 미미한 시냅스라도 수십억이 함께 모인다면 누적 효과를 볼 수 있습니다. $dttr_tech_databank_uplinks_hive_mind_desc$"
+ tech_improved_databank_uplinks_desc_hive_mind: "탐사 드론의 정신 연결에 장기간 노출된 노동자 드론들은 시냅스에서 시너지 효과가 발생합니다. $dttr_tech_improved_databank_uplinks_hive_mind_desc$"

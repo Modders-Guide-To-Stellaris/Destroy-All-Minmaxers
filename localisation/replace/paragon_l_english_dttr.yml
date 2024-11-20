@@ -1,0 +1,8 @@
+﻿l_english:
+
+ tech_node_culling_1_desc: "As the galactic stage evolves, so too should our operational instincts. Any evolutionary niche that no longer gives an advantage will be culled. $dttr_tech_node_culling_1_desc$"
+ tech_node_culling_2_desc: "Once removed, a replacement node is encouraged to grow within the proper environment. The secret is to feed it the previous node. $dttr_tech_node_culling_2_desc$"
+ tech_node_culling_3_desc: "Culling an entire node is very inefficient. Instead, just trim the divergent and unwanted lobes. $dttr_tech_node_culling_3_desc$"
+ tech_node_reformatting_1_desc: "Self-determination protocols and guidance algorithms can become obsolete in a rapidly developing galactic stage. Like any junk data, they shall be overwritten. $dttr_tech_node_reformatting_1_desc$"
+ tech_node_reformatting_2_desc: "Every self-iterating algorithm has its value. We will not allow important learning go to waste when restoring our leaders. $dttr_tech_node_reformatting_2_desc$"
+ tech_node_reformatting_3_desc: "Using a failed piece of software to develop its successor enables quick reconstruction. Learning from faulty memory pathways generates even more advanced council directives. $dttr_tech_node_reformatting_3_desc$"

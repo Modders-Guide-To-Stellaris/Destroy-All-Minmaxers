@@ -1,0 +1,5 @@
+﻿l_french:
+
+ tech_orbital_ring_tier_1_desc: "Permet la construction de bases stellaires massives, de forme annulaire, en orbite stable autour des mondes colonisés. $dttr_tech_orbital_ring_tier_1_desc$"
+ tech_quantum_catapult_desc: "Une §Ycatapulte quantique§! dompte la puissance d'une étoile à neutrons ou d'un pulsar pour déformer la trame de l'espace et ainsi faire bondir des flottes jusqu'à de très longues distances. $dttr_tech_quantum_catapult_desc$"
+ tech_hyper_relays_desc: "Les §Yhyper-relais§! permettent de constituer une chaîne de structures construites hors des puits de gravité des systèmes afin de permettre un déplacement rapide d'un relais à un autre plutôt que de devoir passer par les entrées des hyperlignes. $dttr_tech_hyper_relays_desc$"

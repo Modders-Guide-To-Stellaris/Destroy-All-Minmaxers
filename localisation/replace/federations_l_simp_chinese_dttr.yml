@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+
+ tech_diplo_weight_1_desc: "我们将基于一个激进的观念重塑我们的社会，即那些在某个领域内拥有专业知识的人应在该领域内行使决策权。 $dttr_tech_diplo_weight_1_desc$"
+ tech_mega_shipyard_desc: "一个有着零重力立场的巨型船坞，能够执行多个星舰建设项目。 $dttr_tech_mega_shipyard_desc$"
+ tech_juggernaut_desc: "作为一个行动自如、大小空前的太空基地，主宰级舰船可以将进攻作战提升到一个全新的高度。 $dttr_tech_juggernaut_desc$"
+ tech_advanced_metallurgy_1_desc: "改良陶瓷在工业中的广泛运用能够提高冶金产量。 $dttr_tech_advanced_metallurgy_1_desc$"
+ tech_advanced_metallurgy_2_desc: "采用尖端技术取代过时的瓷金设备后，我们的煅炉将更高温、更耐久，进而提高其产能。 $dttr_tech_advanced_metallurgy_2_desc$"
+ tech_consumer_good_refinement_1_desc: "基础的行政人工智能可以用于精简供需线，减少浪费。 $dttr_tech_consumer_good_refinement_1_desc$"
+ tech_consumer_good_refinement_2_desc: "通过高级人工智能，我们能够在消费需求存在之前便可靠地做出预测。 $dttr_tech_consumer_good_refinement_2_desc$"

@@ -1,0 +1,8 @@
+﻿l_korean:
+
+ tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
+ tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
+ tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
+ tech_pk_godray_desc: "비전 촉매는 특정 사이오닉 파장을 증폭해, 생물학적 두뇌에는 환각(종교적 경험)을 유도하고 전기적 두뇌에는 심각한 붕괴(뇌사)를 유발합니다. $dttr_tech_pk_godray_desc$"
+ tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
+ tech_ftl_inhibitor_desc: "중력장 투사기를 사용해, 초공간으로 안전하게 진입할 수 없게 만드는 국소 지역을 생성합니다. 막대한 양의 전력 요구량과 투사기의 크기 때문에 항성 기지보다 작은 규모에서 사용할 수 없습니다. $dttr_tech_ftl_inhibitor_desc$"

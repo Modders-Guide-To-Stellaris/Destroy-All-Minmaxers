@@ -1,0 +1,15 @@
+﻿l_simp_chinese:
+
+ tech_thought_enforcement_desc: "心灵感应者可以监视具有错误思想的公民，在对心灵感应技术经过一定的研究之后，他们也可以纠正他们在公民中发现的思想错误。 $dttr_tech_thought_enforcement_desc$"
+ tech_tracking_implants_desc: "皮下植入体领域的进一步进展使我们可以获悉被植入目标的移动位置和行动。 $dttr_tech_tracking_implants_desc$"
+ tech_encryption_1_desc: "计算机领域的新突破让我们能够有更多新手段保护我的数据免遭窥视。 $dttr_tech_encryption_1_desc$"
+ tech_encryption_2_desc: "不稳定纠缠态领域的进一步突破让我们能够有更多新手段保护我们的数据遭受非法入侵。 $dttr_tech_encryption_2_desc$"
+ tech_encryption_3_desc: "我们最近在加密领域发现了一个奇怪的物理学现象，我们能够先输入一个特殊密钥再生成它。 $dttr_tech_encryption_3_desc$"
+ tech_decryption_1_desc: "原始的加密机制在现代破译技术面前毫无胜算。 $dttr_tech_decryption_1_desc$"
+ tech_decryption_2_desc: "任何安保机制中最脆弱的环节一定是其中的人。通过计算机模拟，我们能够建立他们的弱点模型，从而发现崭新的方法避开他们的安保系统——又或者骗过他们瞒天过海。 $dttr_tech_decryption_2_desc$"
+ tech_decryption_3_desc: "我们的特工可以在临近的现实映射中获取数据，这样就不用冒着在真实现实中触发警报的风险来获取情报。 $dttr_tech_decryption_3_desc$"
+ tech_planetary_infrastructure_1_desc: "坚固的合金使我们能够建造预制建筑物，为我们的殖民地提供更好的基础设施。 $dttr_tech_planetary_infrastructure_1_desc$"
+ tech_planetary_infrastructure_2_desc: "冶金学的进步使我们能够建造更大，更耐用的结构，从而大大改善了殖民地的基础设施。 $dttr_tech_planetary_infrastructure_2_desc$"
+ tech_capital_productivity_1_desc: "随着我们的星球变得越来越发达，我们的吞吐量已经大大提高了。 $dttr_tech_capital_productivity_1_desc$"
+ tech_capital_productivity_2_desc: "人口密度的增加使我们有机会进一步提高生产力。 $dttr_tech_capital_productivity_2_desc$"
+ tech_capital_productivity_3_desc: "技术的不断进步使我们最发达的星球达到了前所未有的生产力水平。 $dttr_tech_capital_productivity_3_desc$"

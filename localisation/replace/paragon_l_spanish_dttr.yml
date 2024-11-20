@@ -1,0 +1,8 @@
+﻿l_spanish:
+
+ tech_node_culling_1_desc: "A medida que el escenario galáctico evoluciona, también han de hacerlo nuestros instintos operativos. Los rasgos evolutivos que no nos supongan ninguna ventaja serán sacrificados. $dttr_tech_node_culling_1_desc$"
+ tech_node_culling_2_desc: "Tras la eliminación, se animará a un nodo de sustitución a prosperar dentro de un entorno adecuado. El secreto es darle de comer el nodo anterior. $dttr_tech_node_culling_2_desc$"
+ tech_node_culling_3_desc: "Sacrificar un nodo entero no es muy eficiente que digamos. Es mejor podar los lóbulos divergentes o no deseados. $dttr_tech_node_culling_3_desc$"
+ tech_node_reformatting_1_desc: "Los protocolos de autodeterminación y los algoritmos de dirección pueden quedar obsoletos rápidamente en un escenario galáctico cambiante. Hay que sobrescribirlos, como se hace con cualquier dato que ya no es útil. $dttr_tech_node_reformatting_1_desc$"
+ tech_node_reformatting_2_desc: "Cada algoritmo de iteración automática cuenta. No dejaremos que unas enseñanzas tan valiosas se echen a perder por recuperar a nuestros líderes. $dttr_tech_node_reformatting_2_desc$"
+ tech_node_reformatting_3_desc: "El uso de un software dañado en el desarrollo de su sucesor acelera la reconstrucción. Al aprender de sus rutas defectuosas de memoria, se generan directivas del consejo más avanzadas. $dttr_tech_node_reformatting_3_desc$"

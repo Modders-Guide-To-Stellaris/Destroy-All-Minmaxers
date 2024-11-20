@@ -1,0 +1,8 @@
+﻿l_braz_por:
+
+ tech_node_culling_1_desc: "Nossos instintos operacionais devem evoluir juntamente com o cenário galáctico. Qualquer nicho evolucionário que deixe de apresentar vantagens será descartado. $dttr_tech_node_culling_1_desc$"
+ tech_node_culling_2_desc: "Após a remoção, um nódulo substituto deverá crescer no ambiente adequado. O segredo é alimentá-lo com o nódulo anterior. $dttr_tech_node_culling_2_desc$"
+ tech_node_culling_3_desc: "Descartar um nódulo inteiro é muito ineficiente. É melhor cortar apenas os lóbulos divergentes e indesejados. $dttr_tech_node_culling_3_desc$"
+ tech_node_reformatting_1_desc: "Os protocolos de autodeterminação e algoritmos de orientação podem se tornar obsoletos em um cenário galáctico que se desenvolve rapidamente. Assim como dados inúteis, eles devem ser sobrescritos. $dttr_tech_node_reformatting_1_desc$"
+ tech_node_reformatting_2_desc: "Todo algoritmo autoiterativo tem seu valor. Não permitiremos que aprendizados importantes sejam desperdiçados ao restaurarmos nossos líderes. $dttr_tech_node_reformatting_2_desc$"
+ tech_node_reformatting_3_desc: "Usar um software falho para desenvolver seu sucessor permite uma reconstrução rápida. Aprender com caminhos de memória defeituosos gera diretivas de conselho ainda mais avançadas. $dttr_tech_node_reformatting_3_desc$"

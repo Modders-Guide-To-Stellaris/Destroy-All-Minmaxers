@@ -1,0 +1,8 @@
+﻿l_japanese:
+
+ tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
+ tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
+ tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
+ tech_pk_godray_desc: "神秘的な触媒作用により、 特定のサイオニック波長を増幅する。 生物の脳には幻覚 (神秘体験) を与え、 電子頭脳には重度のエラー (脳死) を引き起こす。 $dttr_tech_pk_godray_desc$"
+ tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
+ tech_ftl_inhibitor_desc: "重力投射装置によって局所的な重力異常空間を生成し、 ハイパースペースに安全に進入できないようにする。 消費電力の膨大さと投射装置の巨大さのために、 星系基地や地上の駐屯地よりも小さな構造物では運用できない。 $dttr_tech_ftl_inhibitor_desc$"

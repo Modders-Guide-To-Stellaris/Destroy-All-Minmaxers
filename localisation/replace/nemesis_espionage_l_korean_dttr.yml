@@ -1,0 +1,15 @@
+﻿l_korean:
+
+ tech_thought_enforcement_desc: "텔레파시 능력자들은 시민들의 그릇된 사상을 감시할 수 있으며, 어느 정도 연구를 진행하면 이 그릇된 사상을 수정할 수도 있습니다. $dttr_tech_thought_enforcement_desc$"
+ tech_tracking_implants_desc: "피하 삽입물 분야를 추가로 발전시키면, 삽입물 이식자의 이동 및 행동에 관련된 세부적인 정보를 얻을 수 있습니다. $dttr_tech_tracking_implants_desc$"
+ tech_encryption_1_desc: "컴퓨터 기술의 발전 덕분에, 우리 제국의 데이터를 호시탐탐 엿보는 눈을 막을 새로운 방법을 얻게 되었습니다. $dttr_tech_encryption_1_desc$"
+ tech_encryption_2_desc: "불안정한 얽힘을 추가로 연구한 끝에, 우리 데이터베이스에 무단으로 침입하는 것을 막을 새로운 방법을 얻게 되었습니다. $dttr_tech_encryption_2_desc$"
+ tech_encryption_3_desc: "최근 발전한 암호화 기술은, 근래에 발견된 물리적 특이점을 활용합니다. 키가 생성되기도 전에 특수 키를 입력해야 하죠. $dttr_tech_encryption_3_desc$"
+ tech_decryption_1_desc: "원시적인 암호화 체계는 현대의 해독 도구 앞에 무력할 것입니다. $dttr_tech_decryption_1_desc$"
+ tech_decryption_2_desc: "어떤 보안 체계에서든 가장 약한 연결 고리는 그 내부에 존재하는 개인입니다. 이들의 약점을 컴퓨터 시뮬레이션으로 모델링하면, 보안을 우회할 새로운 방식을 발견하거나 이들을 속여 우리 대신 보안을 우회하게 만들 수 있습니다. $dttr_tech_decryption_2_desc$"
+ tech_decryption_3_desc: "우리 요원들이 현실의 경보를 울릴 위험을 감수하지 않고, 인접한 현실에서 데이터에 접근할 수 있습니다. $dttr_tech_decryption_3_desc$"
+ tech_planetary_infrastructure_1_desc: "더 견고한 합금을 사용하면, 조립식 건물을 제작해 식민지에 개선된 기반 시설을 제공할 수 있습니다. $dttr_tech_planetary_infrastructure_1_desc$"
+ tech_planetary_infrastructure_2_desc: "야금학의 발전으로 더욱 거대하고 견고한 구조물을 건설할 수 있어, 식민지의 기반 시설이 크게 개선됩니다. $dttr_tech_planetary_infrastructure_2_desc$"
+ tech_capital_productivity_1_desc: "우리 제국의 행성이 더욱 발전하면서, 처리량을 크게 개선할 수 있게 됩니다. $dttr_tech_capital_productivity_1_desc$"
+ tech_capital_productivity_2_desc: "인구 밀도가 증가하면, 생산성을 더욱 증가시킬 수 있는 기회가 열립니다. $dttr_tech_capital_productivity_2_desc$"
+ tech_capital_productivity_3_desc: "기술을 계속해서 발전시키면, 우리 제국 내 가장 발전된 행성이 전례 없는 수준의 생산성을 달성할 수 있습니다. $dttr_tech_capital_productivity_3_desc$"

@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+
+ tech_nanite_repair_system_desc: "在拾荒者机器人的残骸里发现了一种高效的船壳自动维修系统，由数十亿个微型纳米机器人组成，并已改造成可为我们所用。至于拾荒者是从远古残骸中夺取了这个系统，还是原本就自带该系统则不得而知。 $dttr_tech_nanite_repair_system_desc$"
+ tech_neuroregeneration_desc: "当适应了一个物种的基因组之后，这种经工程设计出来的组织能够表现出强烈的神经再生特性，显著加速了其受体中神经元、轴突和突触的发育。 $dttr_tech_neuroregeneration_desc$"
+ tech_nanite_autocannon_desc: "极度先进的自动火炮，射出的弹药可以在接近目标时引爆成一片纳米机器人云，以此过载目标的护盾并蚕食其船体区段。 $dttr_tech_nanite_autocannon_desc$"
+ tech_nanite_flak_batteries_desc: "在现有的设计上，改装以纳米机器人的筒状战斗部，可以对舰载机大快朵颐，可谓是舰载机飞行员的噩梦。 $dttr_tech_nanite_flak_batteries_desc$"
+ tech_gargantuan_evolution_desc: "虚空孳孽的卵进化出了通过吸收邻近恒星的能源来忍受严酷太空环境的能力。 $dttr_tech_gargantuan_evolution_desc$"
+ tech_mine_aldar_desc: "不稳定的傲古水晶仅少量存在于较为常见的矿石之中。若想在不对器械与人员造成巨大伤害的情况下将这些晶体成功提取出来，需要十分先进的自触觉机械。 $dttr_tech_mine_aldar_desc$"
+ tech_repeatable_lcluster_clue_desc: "对纳米机器与亚空间现象进行大量研究，最终将为$lgate_disabled$谜团揭开新的§Y$clue$§!。 $dttr_tech_repeatable_lcluster_clue_desc$"
+ tech_lgate_activation_desc: "L-星门超出了我们对亚空间原理的理解。在将其开启之前，我们必须对此进行补救。 $dttr_tech_lgate_activation_desc$"
+ tech_experimental_subspace_navigation_desc: "单独的科研船可以突破自然形成的超空间来抵达那些用正常手段无法抵达的已知星域。 $dttr_tech_experimental_subspace_navigation_desc$"
+ tech_databank_uplinks_desc_hive_mind: "我们发现了一种探索子个体的新奇用法：通过将其留在轨道上，并将其精神链接增幅到整个星球的范围，可以揭开新的探索渠道。即使是数十亿工人子个体的微弱突触，只要集合起来也可以产生累积效果。 $dttr_tech_databank_uplinks_hive_mind_desc$"
+ tech_improved_databank_uplinks_desc_hive_mind: "长期暴露在探索者精神链接下，促使劳工子个体的突触产生了协作效应。 $dttr_tech_improved_databank_uplinks_hive_mind_desc$"

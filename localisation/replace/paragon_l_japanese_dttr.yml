@@ -1,0 +1,8 @@
+﻿l_japanese:
+
+ tech_node_culling_1_desc: "銀河のステージが進化するにつれて、 我々の作戦本能も進化すべきだ。 利益をもたらさなくなった進化的地位は淘汰されるだろう。 $dttr_tech_node_culling_1_desc$"
+ tech_node_culling_2_desc: "除去後、 適切な環境のなかで代替ノードの成長が促される。 この際に、 前のノードを供給することが推奨される。 $dttr_tech_node_culling_2_desc$"
+ tech_node_culling_3_desc: "ノード全体を淘汰するのはとても効率が悪い。 代わりに、 逸脱した不必要な部分を削減すべきだ。 $dttr_tech_node_culling_3_desc$"
+ tech_node_reformatting_1_desc: "自己決定プロトコルや誘導アルゴリズムは、 急速に発展する銀河のステージでは廃れていく可能性がある。 ジャンクデータと同様、 上書きされるべきだ。 $dttr_tech_node_reformatting_1_desc$"
+ tech_node_reformatting_2_desc: "すべての自己反復アルゴリズムには価値がある。 指導者を復活させる際、 重要な学びを無駄にすることは許されない。 $dttr_tech_node_reformatting_2_desc$"
+ tech_node_reformatting_3_desc: "失敗したソフトウェアを使ってその後継を開発することで、 迅速な再構築が可能になる。 欠陥のある記憶経路から学べば、 さらに高度な評議会指令が生まれる。 $dttr_tech_node_reformatting_3_desc$"

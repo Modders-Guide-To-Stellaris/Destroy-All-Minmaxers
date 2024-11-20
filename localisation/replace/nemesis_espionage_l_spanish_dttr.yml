@@ -1,0 +1,15 @@
+﻿l_spanish:
+
+ tech_thought_enforcement_desc: "Los telépatas pueden controlar los pensamientos inadecuados de la ciudadanía, pero con algo de estudio también podrán corregir las anomalías que encuentren. $dttr_tech_thought_enforcement_desc$"
+ tech_tracking_implants_desc: "Los avances en el campo de los implantes subdérmicos pueden ofrecer información detallada sobre los movimientos y los actos de quien los lleve. $dttr_tech_tracking_implants_desc$"
+ tech_encryption_1_desc: "Los avances en tecnología informática nos han dado nuevas formas de proteger nuestros datos de los ojos curiosos. $dttr_tech_encryption_1_desc$"
+ tech_encryption_2_desc: "Los avances en entrelazamiento inestable nos han dado nuevas formas de evitar intrusiones no autorizadas en nuestras bases de datos. $dttr_tech_encryption_2_desc$"
+ tech_encryption_3_desc: "Nuestros últimos avances en explotación de cifrado han descubierto singularidades de física que requieren la introducción de una clave especializada antes de generarse. $dttr_tech_encryption_3_desc$"
+ tech_decryption_1_desc: "Los sistemas de cifrado primitivos no tienen nada que hacer contra las herramientas de descifrado modernas. $dttr_tech_decryption_1_desc$"
+ tech_decryption_2_desc: "El eslabón más débil de cualquier sistema de seguridad son los individuos que hay dentro. Al modelar sus debilidades en simulaciones informáticas, podemos encontrar nuevas formas de puentear su seguridad o de engañarlos para que la puenteen por nosotros. $dttr_tech_decryption_2_desc$"
+ tech_decryption_3_desc: "Nuestros agentes pueden acceder a datos de realidades colindantes sin arriesgarse a activar las alarmas en esta realidad. $dttr_tech_decryption_3_desc$"
+ tech_planetary_infrastructure_1_desc: "Unas aleaciones más fuertes nos permiten crear edificios prefabricados, lo que proporciona una infraestructura mejorada a nuestras colonias. $dttr_tech_planetary_infrastructure_1_desc$"
+ tech_planetary_infrastructure_2_desc: "Los avances en metalurgia nos permiten construir estructuras más grandes y duraderas, lo que mejora mucho la infraestructura de nuestras colonias. $dttr_tech_planetary_infrastructure_2_desc$"
+ tech_capital_productivity_1_desc: "A medida que nuestros planetas se vuelven más desarrollados, podemos obtener mejoras significativas para nuestra producción. $dttr_tech_capital_productivity_1_desc$"
+ tech_capital_productivity_2_desc: "Una mayor densidad de población nos da la oportunidad de aumentar más la productividad. $dttr_tech_capital_productivity_2_desc$"
+ tech_capital_productivity_3_desc: "Los continuos avances tecnológicos permiten que nuestros planetas más desarrollados alcancen niveles de productividad inauditos en épocas anteriores. $dttr_tech_capital_productivity_3_desc$"

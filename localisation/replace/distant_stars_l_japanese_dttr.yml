@@ -1,0 +1,13 @@
+﻿l_japanese:
+
+ tech_nanite_repair_system_desc: "煙を上げるスカベンジャーの残骸から回収された、 数十億ものナノマシンからなる高効率の船体自動修復システムを、 我々が利用できるように改造したもの。 スカベンジャーがこれを古代の廃棄船からくすねてきたのか、 それとも元から備えていたのかは不明である。 $dttr_tech_nanite_repair_system_desc$"
+ tech_neuroregeneration_desc: "この再生医療フォームは、 種族のゲノムに合わせて調整することで、 集中的な神経再生能力を発揮する。 これにより受容者の神経、 軸索、 シナプスなどを著しく増殖させられる。 $dttr_tech_neuroregeneration_desc$"
+ tech_nanite_autocannon_desc: "高度に先進的なオートキャノン。 砲弾が標的付近で爆発してナノマシンの雲となり、 シールドを通過して船体セクションを噛み砕くことができる。 $dttr_tech_nanite_autocannon_desc$"
+ tech_nanite_flak_batteries_desc: "従来の設計を改良し、 軍用機を食い荒らすナノマシン弾筒を発射可能になった対空砲台で、 あらゆるパイロットの悩みの種となる。 $dttr_tech_nanite_flak_batteries_desc$"
+ tech_gargantuan_evolution_desc: "ボイドスポーンの卵は、 宇宙の過酷な環境に耐えられるように進化しており、 近隣の恒星からエネルギーを吸収して蓄えられる。 $dttr_tech_gargantuan_evolution_desc$"
+ tech_mine_aldar_desc: "不安定アルダーは、 より一般的な鉱物にしか含有されていない。 装備と作業者に深刻なダメージを与えずに、 こうした母岩からアルダー結晶をうまく抽出するには、 高度な自動有触覚機械が必要だ。 $dttr_tech_mine_aldar_desc$"
+ tech_repeatable_lcluster_clue_desc: "ナノマシンと亜空間現象について徹底的に研究したことで、 $lgate_disabled$の謎に迫る新たな§Y$clue$§!を手に入れた。 $dttr_tech_repeatable_lcluster_clue_desc$"
+ tech_lgate_activation_desc: "亜空間に関する現在の我々の知識では、 Lゲートを起動できない。 ゲートを開けて通行できるようにするには、 さらに知識が必要だ。 $dttr_tech_lgate_activation_desc$"
+ tech_experimental_subspace_navigation_desc: "孤立した調査船は、 自然発生したハイパーレーン上から脱出し、 ハイパーレーンでは到達不能な既知の目的地への航行を試みることができる。 $dttr_tech_experimental_subspace_navigation_desc$"
+ tech_databank_uplinks_desc_hive_mind: "調査ドローンの斬新な活用法が見つかった。 彼らを軌道上に留め、 マインドリンクを惑星規模にまで増幅すれば、 新たな発見推測経路が発現するのだ。 無数の労働ドローンのささやかなシナプスでも、 一つにまとめれば累積効果がある。 $dttr_tech_databank_uplinks_hive_mind_desc$"
+ tech_improved_databank_uplinks_desc_hive_mind: "調査ドローンのマインドリンクにさらに長い時間接触させることにより、 労働ドローンのシナプスに相乗効果を引き起こす。 $dttr_tech_improved_databank_uplinks_hive_mind_desc$"

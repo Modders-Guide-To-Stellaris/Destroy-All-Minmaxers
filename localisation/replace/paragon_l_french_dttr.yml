@@ -1,0 +1,8 @@
+﻿l_french:
+
+ tech_node_culling_1_desc: "À mesure que la scène galactique évolue, nos instincts opérationnels doivent aussi s'adapter. Toute niche de l'évolution ne nous offrant plus aucun avantage doit donc être abattue. $dttr_tech_node_culling_1_desc$"
+ tech_node_culling_2_desc: "Une fois retiré, la croissance d'un noeud de remplacement doit être encouragée au sein d'un environnement approprié. Le secret consiste alors à l'alimenter du noeud précédent. $dttr_tech_node_culling_2_desc$"
+ tech_node_culling_3_desc: "Abattre un noeud est hautement inefficace. Mieux vaut n'en expurger que les lobes divergents et non souhaités. $dttr_tech_node_culling_3_desc$"
+ tech_node_reformatting_1_desc: "Les protocoles d'autodétermination et algorithmes de guidage peuvent devenir obsolètes sur une scène galactique qui évolue rapidement. Comme toute donnée périmée, ils doivent donc être écrasés. $dttr_tech_node_reformatting_1_desc$"
+ tech_node_reformatting_2_desc: "Tout algorithme auto-itérant a une valeur propre. Nous ne pouvons donc pas permettre que leur apprentissage soit gâché au moment du reformatage des noeuds. $dttr_tech_node_reformatting_2_desc$"
+ tech_node_reformatting_3_desc: "S'appuyer sur les éléments sains d'un logiciel dysfonctionnel pour développer une nouvelle version permet une reconstruction plus rapide. Apprendre des schémas de mémoire erronés permet de générer des directives encore plus avancées. $dttr_tech_node_reformatting_3_desc$"

@@ -1,0 +1,5 @@
+﻿l_english:
+
+ tech_identity_copy_desc: "We will be able to copy the identity and memories of a Synthetic into a new mechanical body. The copies have predictable skill sets but make for stale conversation. $dttr_tech_identity_copy_desc$"
+ tech_identity_fusion_desc: "Merging the identities and memories of two or more Synthetics into a mechanical body will create new, somewhat unique individuals. $dttr_tech_identity_fusion_desc$"
+ tech_identity_initialization_desc: "We will be able to initialize an identity kernel and provide it with a virtual childhood. While expensive, we can simulate the optimal experiences to generate productive personalities. $dttr_tech_identity_initialization_desc$"

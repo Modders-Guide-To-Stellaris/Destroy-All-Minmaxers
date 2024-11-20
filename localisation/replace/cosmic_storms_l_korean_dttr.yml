@@ -1,0 +1,12 @@
+﻿l_korean:
+
+ tech_storm_manipulation_desc: "폭풍 피해 완화 기술의 원리를 활용하면 은하계의 우주 기상학적 특성을 우리가 원하는 대로 조작할 수 있습니다. $dttr_tech_storm_manipulation_desc$"
+ tech_advanced_storm_manipulation_desc: "지속적인 우주 기상학 연구를 통해 우리는 §Y우주 폭풍§!을 한층 더 정밀하게 원하는 대로 변형하고 조작할 힘을 얻게 되었습니다. $dttr_tech_advanced_storm_manipulation_desc$"
+ tech_industrial_storm_protection_desc: "이 기상 통신 연결체는 우주적 기상 재난으로 인한 피해를 줄여줍니다. 은하 폭풍으로 인한 생산 피해가 완화됩니다. $dttr_tech_industrial_storm_protection_desc$"
+ tech_advanced_industrial_storm_protection_desc: "행성의 기상 제어 시스템을 통합하면, 기상 패턴 조작을 통해 우주 폭풍으로 인한 생산 피해를 현저히 줄일 수 있습니다. $dttr_tech_advanced_industrial_storm_protection_desc$"
+ tech_storm_prediction_1_desc: "과학적인 기상 모형을 사용하면 임박한 §Y우주 폭풍§!의 움직임과 형성을 파악할 수 있습니다. $dttr_tech_storm_prediction_1_desc$"
+ tech_storm_prediction_2_desc: "과학적인 기상 모형에 확률 흐름을 적용함으로써 임박한 §Y우주 폭풍§!의 움직임과 형성을 파악하는 능력이 대폭 향상되었습니다. $dttr_tech_storm_prediction_2_desc$"
+ tech_ship_hull_storm_breaker_1_desc: "이 완충 역장 생성기는 우주 폭풍을 지나는 함선이라면 없어서는 안 될 방어력을 제공합니다. $dttr_tech_ship_hull_storm_breaker_1_desc$"
+ tech_ship_hull_storm_breaker_2_desc: "이 특수 코팅은 함선의 표면에 폭풍 완충 역장을 둘러, 폭풍으로부터 함선을 더욱 효율적으로 보호합니다. $dttr_tech_ship_hull_storm_breaker_2_desc$"
+ tech_ship_storm_weapons_1_desc: "군사 분야의 합금 활용 방식을 혁신해, 우주 폭풍이 에너지 및 폭발형 무기에 주는 영향을 크게 줄입니다. $dttr_tech_ship_storm_weapons_1_desc$"
+ tech_ship_storm_weapons_2_desc: "함선 설계에 새로운 접근 방식을 도입해, 우주 폭풍이 무기 체계에 주는 부정적인 영향을 크게 줄입니다. $dttr_tech_ship_storm_weapons_2_desc$"

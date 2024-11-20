@@ -1,0 +1,8 @@
+﻿l_french:
+
+ tech_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$ $dttr_tech_pk_cracker_desc$"
+ tech_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$ $dttr_tech_pk_shielder_desc$"
+ tech_pk_neutron_desc: "$PLANET_KILLER_NEUTRON_DESC$ $dttr_tech_pk_neutron_desc$"
+ tech_pk_godray_desc: "Un catalyseur ésotérique amplifiant certaines longueurs d'onde psioniques et capable d'induire des hallucinations dans les cerveaux biologiques (expériences religieuses), et de graves défaillances dans les processeurs électroniques (dysfonctionnements divers). $dttr_tech_pk_godray_desc$"
+ tech_pk_nanobots_desc: "$PLANET_KILLER_NANOBOTS_DESC$ $dttr_tech_pk_nanobots_desc$"
+ tech_ftl_inhibitor_desc: "Les projecteurs de puits de gravité peuvent être utilisés pour créer des poches d'espace limitées, où l'entrée en hyperespace est impossible. L'énergie immense alors requise et la taille des projecteurs interdisent néanmoins leur usage sur n'importe quoi qui soit moins vaste qu'une base stellaire. $dttr_tech_ftl_inhibitor_desc$"
