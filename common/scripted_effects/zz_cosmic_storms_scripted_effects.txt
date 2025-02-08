@@ -17,7 +17,7 @@ electric_storm_apply_deposits = {
             40 = {}
             60 = {
                 random_list = {
-                    30 = { add_deposit = d_electric_storm_1_engineering }40
+                    30 = { add_deposit = d_electric_storm_1_engineering }
                     30 = { add_deposit = d_electric_storm_2_unity }
                     30 = { add_deposit = d_electric_storm_3_physics }
                 }
