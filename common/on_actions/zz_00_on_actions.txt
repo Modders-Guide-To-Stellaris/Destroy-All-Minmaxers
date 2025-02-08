@@ -1,0 +1,41 @@
+# This: System
+# From: Storm
+on_storm_entered_system = {
+    random_events = {
+        90 = 0
+        10 = cstorms.1800
+    }
+    events = {
+        cstorms.2370
+        cstorms.1317
+        cstorms.1760	# Dusty Drink (triggered when a Celestial Storm hits a colony)
+        cstorms.1770	# Flightless Fauna (triggered when a Gravity Storm hits a colony)
+        cstorms.1150	# Update Diplomatic Weight for Storm Devotion
+    }
+}
+
+# This: System
+# From: Storm
+on_storm_left_system = {
+    random_events = {
+        45 = 0
+        10 = cstorms.5
+        40 = cstorms.10
+        5 = cstorms.1310
+    }
+    events = {
+        cstorms.500		# Storm negation tech insight
+        cstorms.1313	# Stormbound Returns
+        cstorms.1316	# Whispers in the Tempest
+        cstorms.1700	# Magnetized Planetary Core (triggered when a Magnetic Storm leaves a colony)
+        cstorms.1710	# Electrified Oceans (triggered when an Electric Storm leaves a colony)
+        cstorms.1720	# Ghostly Apparitions (triggered when a Shroud Storm leaves a colony)
+        cstorms.1730	# Volcanic Inactivity (triggered when a storm leaves a colony with a volcano)
+        cstorms.1740	# Mountain in the Sky (triggered when a Gravity Storm leaves a colony)
+        cstorms.1750	# Melting Glaciers (triggered when a basic Storm leaves a cold colony)
+        cstorms.1775	# Flightless Fauna 2 (triggered when a Gravity Storm leaves a colony with protected flightless fauna)
+        cstorms.1830	# Aftermath Opportunists (triggered if you know the Rackets)
+        cstorms.1840	# Repowered Complex arc site spawn (triggered when an Electric Storm leaves)
+        cstorms.1155	# Update Diplomatic Weight for Storm Devotion
+    }
+}

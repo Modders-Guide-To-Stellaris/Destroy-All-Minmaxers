@@ -1,0 +1,260 @@
+namespace = cstorms
+
+system_event = {
+    id = cstorms.10
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        exists = owner
+        NOR = {
+            has_star_flag = extradimensional_origin_system
+            has_star_flag = formless_system
+        }
+    }
+
+    immediate = {
+        random_list = {
+            0 = {
+                modifier = {
+                    add = 1
+                    any_system_planet = {
+                        is_star = yes
+                        is_binary_star = no
+                        is_trinary_star = no
+                        NOR = {
+                            is_planet_class = pc_t_star
+                            is_star_class = sc_pulsar
+                            is_planet_class = pc_neutron_star
+                            is_planet_class = pc_black_hole
+                            is_planet_class = pc_toxoid_star
+                        }
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                }
+                modifier = {
+                    factor = 0
+                    owner = { has_country_flag = spawned_STORMS_ANOM_POLYCHROMATIC }
+                }
+                owner = { set_country_flag = spawned_STORMS_ANOM_POLYCHROMATIC }
+                random_system_planet = {
+                    limit = {
+                        is_star = yes
+                        is_binary_star = no
+                        is_trinary_star = no
+                        NOR = {
+                            is_planet_class = pc_t_star
+                            is_star_class = sc_pulsar
+                            is_planet_class = pc_neutron_star
+                            is_planet_class = pc_black_hole
+                            is_planet_class = pc_toxoid_star
+                        }
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                    add_storm_type_flag = { SCOPE_TYPE = planet STORM_SCOPE = from }
+                    add_anomaly = {
+                        category = STORMS_ANOM_POLYCHROMATIC
+                        target = solar_system.owner
+                    }
+                }
+            }
+            1 = {
+                modifier = {
+                    factor = 0
+                    owner = { has_country_flag = spawned_STORMS_ANOM_TRIPLETS }
+                }
+                owner = { set_country_flag = spawned_STORMS_ANOM_TRIPLETS }
+                while = {
+                    count = 2
+                    spawn_planet = {
+                        generate_random_name = yes
+                        class = pc_ice_asteroid
+                        orbit_distance = { min = 90 max = 210 }
+                        orbit_angle = { min = 0 max = 360 }
+                        flags = { asteroid_triplet }
+                        init_effect = {
+                            clear_deposits = yes
+                        }
+                    }
+                }
+                spawn_planet = {
+                    generate_random_name = yes
+                    class = pc_crystal_asteroid
+                    orbit_distance = { min = 90 max = 210 }
+                    orbit_angle = { min = 0 max = 360 }
+                    flags = { asteroid_triplet }
+                    init_effect = {
+                        clear_deposits = yes
+                    }
+                }
+                random_system_planet = {
+                    limit = { has_planet_flag = asteroid_triplet }
+                    add_anomaly = {
+                        category = STORMS_ANOM_TRIPLETS
+                        target = solar_system.owner
+                    }
+                }
+            }
+            0 = {
+                modifier = {
+                    add = 1
+                    any_system_planet = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                }
+                modifier = {
+                    factor = 0
+                    owner = { has_country_flag = spawned_STORMS_ANOM_TRAVELLERS }
+                }
+                owner = { set_country_flag = spawned_STORMS_ANOM_TRAVELLERS }
+                random_system_planet = {
+                    limit = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                    add_storm_type_flag = { SCOPE_TYPE = planet STORM_SCOPE = from }
+                    add_anomaly = {
+                        category = STORMS_ANOM_TRAVELLERS
+                        target = solar_system.owner
+                    }
+                }
+            }
+            0 = {
+                modifier = {
+                    add = 1
+                    any_system_planet = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                }
+                modifier = {
+                    factor = 0
+                    owner = { has_country_flag = spawned_STORMS_COSMIC_SLUDGE }
+                }
+                owner = { set_country_flag = spawned_STORMS_COSMIC_SLUDGE }
+                random_system_planet = {
+                    limit = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                    add_storm_type_flag = { SCOPE_TYPE = planet STORM_SCOPE = from }
+                    add_anomaly = {
+                        category = STORMS_COSMIC_SLUDGE
+                        target = solar_system.owner
+                    }
+                }
+            }
+            0 = {
+                modifier = {
+                    add = 1
+                    any_system_planet = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                }
+                modifier = {
+                    factor = 0
+                    owner = { has_country_flag = spawned_STORMS_SHATTERED_SATTELITE }
+                }
+                owner = { set_country_flag = spawned_STORMS_SHATTERED_SATTELITE }
+                random_system_planet = {
+                    limit = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                    add_storm_type_flag = { SCOPE_TYPE = planet STORM_SCOPE = from }
+                    add_anomaly = {
+                        category = STORMS_SHATTERED_SATTELITE
+                        target = solar_system.owner
+                    }
+                }
+            }
+            0 = {
+                modifier = {
+                    add = 1
+                    any_system_planet = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                }
+                modifier = {
+                    factor = 0
+                    owner = { has_country_flag = spawned_STORMS_EVISCERATED_FAUNA }
+                }
+                owner = { set_country_flag = spawned_STORMS_EVISCERATED_FAUNA }
+                random_system_planet = {
+                    limit = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                    add_storm_type_flag = { SCOPE_TYPE = planet STORM_SCOPE = from }
+                    create_ambient_object = {
+                        type = small_dead_tiyanki_object
+                        location = this
+                    }
+                    last_created_ambient_object = {
+                        set_ambient_object_flag = eviscerated_space_fauna_object
+                        set_location = {
+                            target = prev
+                            distance = 10
+                            angle = random
+                        }
+                    }
+                    add_anomaly = {
+                        category = STORMS_EVISCERATED_FAUNA
+                        target = solar_system.owner
+                    }
+                }
+            }
+            0 = {
+                modifier = {
+                    add = 1
+                    any_system_planet = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                    owner = {
+                        OR = {
+                            AND = {
+                                exists = event_target:tiyanki_garrison_country
+                                has_communications = event_target:tiyanki_garrison_country
+                            }
+                            AND = {
+                                exists = event_target:tiyanki_country
+                                has_communications = event_target:tiyanki_country
+                            }
+                        }
+                    }
+                }
+                modifier = {
+                    factor = 0
+                    owner = { has_country_flag = spawned_STORMS_DISPLACED_TIYANKI }
+                }
+                owner = { set_country_flag = spawned_STORMS_DISPLACED_TIYANKI }
+                random_system_planet = {
+                    limit = {
+                        is_star = yes
+                        has_anomaly = no
+                        is_preventing_anomaly = no
+                    }
+                    add_anomaly = {
+                        category = STORMS_DISPLACED_TIYANKI
+                        target = solar_system.owner
+                    }
+                }
+            }
+        }
+    }
+}
