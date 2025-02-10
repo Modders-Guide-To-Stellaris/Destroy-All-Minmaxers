@@ -36,6 +36,11 @@ planet_event = {
                         is_deposit_type = d_shroud_storm_2_zro
                         is_deposit_type = d_shroud_storm_3_happy
 
+                        is_deposit_type = d_numas_breath
+                        is_deposit_type = d_myrmeku_power_farms
+                        is_deposit_type = d_portal_research_zone
+                        is_deposit_type = d_metal_boneyard
+                        is_deposit_type = d_radiotrophic_preserve
 
                         is_deposit_type = d_dust_caverns
                         is_deposit_type = d_dust_desert
@@ -144,6 +149,11 @@ planet_event = {
                         is_deposit_type = d_shroud_storm_2_zro
                         is_deposit_type = d_shroud_storm_3_happy
 
+                        is_deposit_type = d_numas_breath
+                        is_deposit_type = d_myrmeku_power_farms
+                        is_deposit_type = d_portal_research_zone
+                        is_deposit_type = d_metal_boneyard
+                        is_deposit_type = d_radiotrophic_preserve
 
                         is_deposit_type = d_dust_caverns
                         is_deposit_type = d_dust_desert
