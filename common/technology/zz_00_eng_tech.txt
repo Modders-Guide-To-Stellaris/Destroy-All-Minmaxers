@@ -4,4 +4,8 @@ tech_solar_panel_network = {
     category = { voidcraft }
     prerequisites = { "tech_starbase_2" }
     start_tech = yes
+
+    potential = {
+        always = yes
+    }
 }
