@@ -1,15 +1,15 @@
-solar_panel_network = {
+solar_panel_network_organic = { #yes I hate my life too
     icon = "GFX_solar_panel_network"
     section = "SCIENCE_STARBASE_SECTION"
     construction_days = 180
-    initial = yes
+    initial = no
 
     potential = {
         exists = owner
         is_normal_starbase = yes
         owner = {
+            is_gestalt = no
             has_technology = "tech_solar_panel_network"
-            NOT = { has_civic = civic_machine_astromining_drones }
         }
     }
 
