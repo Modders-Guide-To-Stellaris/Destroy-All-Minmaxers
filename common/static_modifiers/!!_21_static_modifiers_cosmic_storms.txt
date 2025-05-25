@@ -1,4 +1,0 @@
-storm_trap_insight_modifier = {
-    planet_storm_devastation_mult = -0.2
-    icon = "gfx/interface/icons/modifiers/mod_storm_trap_insight.dds"
-}
