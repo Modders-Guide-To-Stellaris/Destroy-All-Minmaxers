@@ -177,27 +177,31 @@ planet_event = {
             remove_modifier = "atmospheric_hallucinogen"
             remove_modifier = "lush_planet"
         }
-
-        remove_modifier = "bleak_planet"
-        remove_modifier = "dangerous_wildlife"
-        remove_modifier = "hazardous_weather"
-        remove_modifier = "wild_storms"
-        remove_modifier = "irradiated_planet"
-        remove_modifier = "second_home"
-        remove_modifier = "hyper_ecosystem"
-        remove_modifier = "docile_fauna"
-        remove_modifier = "obsidian_lakes"
-        remove_modifier = "previously_terraformed_planet"
-        remove_modifier = "wooden_planet"
-        remove_modifier = "crimson_crawlers"
-        remove_deposit = d_radiotrophic_preserve
-        remove_modifier = "molten_mineral_rivers"
-        remove_modifier = "ship_junkyard"
-        remove_modifier = "hostile_planet"
-        remove_modifier = "terraforming_candidate"
-        remove_modifier = "frozen_terraforming_candidate"
-        remove_modifier = "toxic_terraforming_candidate"
-
+        if = {
+            limit = {
+                is_same_planet_class = no #If we didn't change planet class we don't need to clear modifiers
+            }
+            remove_modifier = "bleak_planet"
+            remove_modifier = "dangerous_wildlife"
+            remove_modifier = "hazardous_weather"
+            remove_modifier = "wild_storms"
+            remove_modifier = "irradiated_planet"
+            remove_modifier = "second_home"
+            remove_modifier = "hyper_ecosystem"
+            remove_modifier = "docile_fauna"
+            remove_modifier = "obsidian_lakes"
+            remove_modifier = "previously_terraformed_planet"
+            remove_modifier = "wooden_planet"
+            remove_modifier = "crimson_crawlers"
+            remove_deposit = d_radiotrophic_preserve
+            remove_modifier = "molten_mineral_rivers"
+            remove_modifier = "ship_junkyard"
+            remove_modifier = "hostile_planet"
+            remove_modifier = "terraforming_candidate"
+            remove_modifier = "frozen_terraforming_candidate"
+            remove_modifier = "toxic_terraforming_candidate"
+            set_planet_flag = colony_event #Make it so that colony events don't fire on terraformed worlds
+        }
         if = {
             limit = {
                 NOT = {
@@ -228,7 +232,6 @@ planet_event = {
                 delete_fleet = this
             }
         }
-        set_planet_flag = colony_event #Make it so that colony events don't fire on terraformed worlds
 
         if = {
             limit = {
