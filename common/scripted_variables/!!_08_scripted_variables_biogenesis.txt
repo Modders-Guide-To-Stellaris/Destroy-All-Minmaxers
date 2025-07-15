@@ -1,3 +1,14 @@
+# Genomic job modifiers
+@genomic_purity_growth = 0.10
+@genomic_purity_pop_size = -0.10
+@genomic_cloning_assembly = 0.5 #CHANGED FROM 1!!
+@genomic_cloning_assembly_healthcare = 1
+@genomic_cloning_amenities = 300
+@genomic_cloning_crime = -10
+@genomic_mutation_habitability = 0.10
+@genomic_mutation_auto_mod = 100
+@genomic_tech_progress = 0.50
+
 # Purity Authority Modifiers
 @purity_traits_bonus_workforce_mult = 0.025
 @purity_traits_happiness = 0.05
