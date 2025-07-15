@@ -23,7 +23,7 @@ col_nan_energy = {
     }
 
     planet_modifier = {
-        planet_technicians_produces_mult = 0.2
+        planet_technician_produces_mult = 0.2
 
     }
 
