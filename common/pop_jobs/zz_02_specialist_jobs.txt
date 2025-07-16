@@ -3141,6 +3141,57 @@ knight = {
                 }
             }
         }
+
+        # Extra upkeep :: Flag = Unity \n Tech
+        upkeep = {
+            alloys = 0.75
+            trigger = {
+                exists = owner
+                owner = {
+                    OR = {
+                        has_country_flag = toxoids_7011_a
+                        has_country_flag = toxoids_7011_b
+                    }
+                }
+            }
+        }
+
+        upkeep = {
+            alloys = 0.75
+            trigger = {
+                exists = owner
+                owner = {
+                    OR = {
+                        has_country_flag = toxoids_7040_a
+                        has_country_flag = toxoids_7040_b
+                    }
+                }
+            }
+        }
+
+        upkeep = {
+            alloys = 0.75
+            trigger = {
+                exists = owner
+                owner = {
+                    OR = {
+                        has_country_flag = toxoids_7130_c
+                        has_country_flag = toxoids_7130_b
+                    }
+                }
+            }
+        }
+
+        # just tech cause tech wanted to be special 4 number and not 3
+        upkeep = {
+            alloys = 0.75
+            trigger = {
+                exists = owner
+                owner = {
+                    has_country_flag = toxoids_7220_a
+                }
+            }
+        }
     }
 
     planet_modifier = {
