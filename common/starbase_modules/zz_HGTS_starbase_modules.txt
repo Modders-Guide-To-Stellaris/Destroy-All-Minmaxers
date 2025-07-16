@@ -55,6 +55,16 @@ astromining_bay = {
             trigger = { solar_system = { any_system_planet = { has_modifier = orbital_arc_furnace_4_mod }} }
             energy = 16
         }
+        # as lolbot would say HUZZAH
+        # upkeep = {
+        #     trigger = { system_has_arc_furnace = yes }
+        #     energy = 4
+        #
+        #     mult = value:arc_furnace_upkeep_bonus|FURNACE_MOD|orbital_arc_furnace_1_mod|FURNACE_MULT|1|
+        #     mult = value:arc_furnace_upkeep_bonus|FURNACE_MOD|orbital_arc_furnace_2_mod|FURNACE_MULT|2|
+        #     mult = value:arc_furnace_upkeep_bonus|FURNACE_MOD|orbital_arc_furnace_3_mod|FURNACE_MULT|3|
+        #     mult = value:arc_furnace_upkeep_bonus|FURNACE_MOD|orbital_arc_furnace_4_mod|FURNACE_MULT|4|
+        # }
     }
 
     system_modifier = {

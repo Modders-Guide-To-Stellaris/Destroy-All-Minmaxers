@@ -1,0 +1,12 @@
+# arc_furnace_upkeep_bonus = {
+#     base = 0
+#     complex_trigger_modifier = {
+#         trigger = any_system_planet
+#         trigger_scope = solar_system
+#         parameters = {
+#             has_modifier = $FURNACE_MOD$
+#         }
+#         mode = add
+#         mult = $FURNACE_MULT$
+#     }
+# }
