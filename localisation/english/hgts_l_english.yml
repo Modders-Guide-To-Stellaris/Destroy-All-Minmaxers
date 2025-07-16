@@ -1,1 +1,16 @@
-﻿
+﻿l_english:
+ col_nan_mining:0 "Nanite Extraction Colony"
+ col_nan_mining_desc:0 "Advanced nanite-controlled drills increase mineral output efficiently."
+
+ col_nan_energy:0 "Nano-Energy Harvesting Colony"
+ col_nan_energy_desc:0 "This colony focuses on extracting and converting high-density nanite currents into usable energy."
+
+ col_nan_unity:0 "Nanite Coordination Hub"
+ col_nan_unity_desc:0 "A centralized colony dedicated to unity and governance."
+
+ col_nan_tech:0 "Nanite Research Enclave"
+ col_nan_tech_desc:0 "This colony is a haven for scientists and thinkers delving into the mysteries of nanotech."
+
+ col_nan_foxy:0 "Nanite Eden"
+ col_nan_foxy_desc:0 "A tranquil colony designed for peace and restoration. The ambient femboys provide a harmonious environment that subtly boosts stability."
+ #:)
