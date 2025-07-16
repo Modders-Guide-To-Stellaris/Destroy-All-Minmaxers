@@ -323,16 +323,17 @@ planet_knights = {
     modifier_category = pop_job
     generate_mult_modifiers = {
         produces
-        triggered_produces_modifier = {
-            key = planet_soldiers
-            modifier_types = {
-                add
-            }
-            trigger = {
-                always = yes
-            }
-            use_parent_icon = yes
+        upkeep
+    }
+    triggered_produces_modifier = {
+        key = planet_soldiers
+        modifier_types = {
+            add
         }
+        trigger = {
+            always = yes
+        }
+        use_parent_icon = yes
     }
     triggered_upkeep_modifier = {
         key = planet_soldiers
