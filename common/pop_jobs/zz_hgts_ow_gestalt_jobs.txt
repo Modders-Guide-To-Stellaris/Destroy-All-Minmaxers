@@ -1,0 +1,187 @@
+##Alloys Jobs
+#Machine (Deafult Gestalt)
+fabricator = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_foundry_1
+        }
+        #Alloy Drone - auth_hive
+        swap_type = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_hive_empire = yes
+                    is_catalytic_empire = no
+                    is_wilderness_empire = no
+                }
+            }
+            name = alloy_drone
+            desc = alloy_drone
+            icon = alloy_drone
+            building_icon = building_foundry_1
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 2
+        }
+        #Catalytic Drone - auth_hive
+        swap_type = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_catalytic_empire = yes
+                }
+            }
+            name = catalytic_drone
+            desc = catalytic_drone
+            icon = catalytic_drone
+            building_icon = building_foundry_1
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 3
+        }
+        #Transmuter Drone - d_bluelotus
+        swap_type = {
+            trigger = {
+                has_deposit = d_bluelotus
+            }
+            name = bluelotus_drone
+            desc = bluelotus_drone
+            building_icon = building_illicit_research_labs
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 4
+        }
+        swap_type = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_wilderness_empire = yes
+                }
+            }
+            name = forgesymbiont
+            desc = forgesymbiont
+            icon = forgesymbiont
+            building_icon = natural_furnace_3
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 10
+        }
+    }
+
+    tags = { alloys }
+
+    possible_pre_triggers = {
+        has_owner = yes
+        is_enslaved = no
+        is_being_purged = no
+        is_being_assimilated = no
+        is_sapient = yes
+    }
+
+    possible_precalc = can_fill_drone_job
+
+    possible = { can_think = yes }
+
+    resources = {
+        category = planet_metallurgists
+        produces = {
+            alloys = 3
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_catalytic_empire = yes
+                }
+            }
+            alloys = 0.75
+            #no, no you empty-shell-lover, you don't get to enjoy free extra alloys just cause
+            # a singular one of your jobs requires "1" alloy in upkeep, KOTG doesn't have this benefit either
+        }
+        produces = {
+            trigger = {
+                planet = {
+                    has_planet_flag = has_material_requisitorium
+                }
+            }
+            alloys = @requisitorium_alloys_reduction
+        }
+        upkeep = {
+            minerals = 6
+        }
+        upkeep = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_catalytic_empire = yes
+                }
+            }
+            minerals = -6
+            food = 9
+        }
+        upkeep = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_machine_empire = yes
+                    is_catalytic_empire = yes
+                }
+            }
+        }
+        upkeep = {
+            trigger = {
+                exists = planet
+                planet = {
+                    has_deposit = d_bluelotus
+                }
+                exists = owner
+                owner = {
+                    is_catalytic_empire = no
+                }
+            }
+            minerals = -3
+        }
+        upkeep = {
+            trigger = {
+                planet = {
+                    has_planet_flag = has_material_requisitorium
+                }
+            }
+            minerals = 2
+        }
+    }
+
+    overlord_resources = {
+        category = planet_requisitioned_alloys
+        produces = {
+            trigger = {
+                planet = {
+                    has_planet_flag = has_material_requisitorium
+                }
+            }
+            alloys = @requisitorium_alloys_overlord
+        }
+    }
+
+    weight = {
+        weight = @complex_drone_job_weight
+        mult = value:job_weights_modifier|JOB|fabricator|RESOURCE|alloys|
+        modifier = {
+            factor = 0.9
+            exists = owner
+            years_passed < 1
+            owner = { has_valid_civic = civic_machine_assimilator }
+            has_trait = trait_cybernetic
+        }
+    }
+    inline_script = "jobs/automodding_priority_alloys"
+
+    promotion = {
+        time = @standard_promotion_time
+        effect = {
+            pop_amount_change_category = {
+                CATEGORY = complex_drone
+                AMOUNT = local_pop_amount
+            }
+        }
+    }
+}
