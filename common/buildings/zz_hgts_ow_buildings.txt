@@ -107,16 +107,16 @@ building_refinery = {
     }
 
     planet_modifier = {
-        planet_metallurgists_exotic_gases_produces_add = 0.1
-        planet_artisans_exotic_gases_produces_add = 0.1
+        planet_metallurgists_exotic_gases_produces_add = 0.2
+        planet_artisans_exotic_gases_produces_add = 0.2
     }
 
     triggered_planet_modifier = {
         potential = {
             industrial_jobs_are_catalytic_trigger = no
         }
-        planet_metallurgists_minerals_upkeep_add = 0.5
-        planet_artisans_minerals_upkeep_add = 0.5
+        planet_metallurgists_minerals_upkeep_add = 1
+        planet_artisans_minerals_upkeep_add = 1
     }
 
 
@@ -124,8 +124,8 @@ building_refinery = {
         potential = {
             industrial_jobs_are_catalytic_trigger = yes
         }
-        planet_metallurgists_food_upkeep_add = 0.75
-        planet_artisans_food_upkeep_add = 0.75
+        planet_metallurgists_food_upkeep_add = 1.5
+        planet_artisans_food_upkeep_add = 1.5
     }
 
     prerequisites = {
@@ -168,16 +168,16 @@ building_chemical_plant = {
     }
 
     planet_modifier = {
-        planet_metallurgists_volatile_motes_produces_add = 0.1
-        planet_artisans_volatile_motes_produces_add = 0.1
+        planet_metallurgists_volatile_motes_produces_add = 0.2
+        planet_artisans_volatile_motes_produces_add = 0.2
     }
 
     triggered_planet_modifier = {
         potential = {
             industrial_jobs_are_catalytic_trigger = no
         }
-        planet_metallurgists_minerals_upkeep_add = 0.5
-        planet_artisans_minerals_upkeep_add = 0.5
+        planet_metallurgists_minerals_upkeep_add = 1
+        planet_artisans_minerals_upkeep_add = 1
     }
 
 
@@ -185,8 +185,8 @@ building_chemical_plant = {
         potential = {
             industrial_jobs_are_catalytic_trigger = yes
         }
-        planet_metallurgists_food_upkeep_add = 0.75
-        planet_artisans_food_upkeep_add = 0.75
+        planet_metallurgists_food_upkeep_add = 1.5
+        planet_artisans_food_upkeep_add = 1.5
     }
 
     prerequisites = {
@@ -229,16 +229,16 @@ building_crystal_plant = {
     }
 
     planet_modifier = {
-        planet_metallurgists_rare_crystals_produces_add = 0.1
-        planet_artisans_rare_crystals_produces_add = 0.1
+        planet_metallurgists_rare_crystals_produces_add = 0.2
+        planet_artisans_rare_crystals_produces_add = 0.2
     }
 
     triggered_planet_modifier = {
         potential = {
             industrial_jobs_are_catalytic_trigger = no
         }
-        planet_metallurgists_minerals_upkeep_add = 0.5
-        planet_artisans_minerals_upkeep_add = 0.5
+        planet_metallurgists_minerals_upkeep_add = 1
+        planet_artisans_minerals_upkeep_add = 1
     }
 
 
@@ -246,8 +246,8 @@ building_crystal_plant = {
         potential = {
             industrial_jobs_are_catalytic_trigger = yes
         }
-        planet_metallurgists_food_upkeep_add = 0.75
-        planet_artisans_food_upkeep_add = 0.75
+        planet_metallurgists_food_upkeep_add = 1.5
+        planet_artisans_food_upkeep_add = 1.5
     }
 
     prerequisites = {
