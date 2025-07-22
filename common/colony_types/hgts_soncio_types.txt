@@ -58,8 +58,7 @@ col_nan_tech = {
 
     planet_modifier = {
         planet_building_research_lab_1_build_speed_mult = 0.25
-        planet_researchers_produces_mult = 0.05
-        planet_researchers_upkeep_mult = -0.1
+        planet_researchers_upkeep_mult = -0.2
     }
 
     weight_modifier = {
@@ -75,7 +74,6 @@ col_nan_foxy = {
     }
 
     planet_modifier = {
-        planet_stability_add = 10
     }
 
     weight_modifier = {
