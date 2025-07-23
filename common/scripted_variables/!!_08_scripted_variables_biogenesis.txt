@@ -12,7 +12,7 @@
 # Purity Authority Modifiers
 @purity_traits_bonus_workforce_mult = 0.025
 @purity_traits_happiness = 0.05
-@purity_traits_resource = 0.125
+@purity_traits_resource = 0.125 #CHANGED FROM 0.5!!
 @purity_traits_imperial_bloodline = 0.05
 @purity_traits_leader_xp = 0.05
 @purity_traits_leader_upkeep = -0.05
