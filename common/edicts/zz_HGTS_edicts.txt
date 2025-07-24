@@ -7,11 +7,11 @@ damn_the_consequences = {
     resources = {
         category = edicts
         cost = {
-            unity = 20
+            unity = 30
             multiplier = value:edict_size_effect
         }
         upkeep = {
-            unity = 20
+            unity = 30
             multiplier = value:edict_size_effect
         }
     }
