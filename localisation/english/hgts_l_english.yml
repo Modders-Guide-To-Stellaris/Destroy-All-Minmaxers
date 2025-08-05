@@ -37,3 +37,9 @@
 
  HGTS_AGREE: "Take Action"
  HGTS_DISAGREE: "Leave Them Be"
+
+ ## GALAXY
+
+ HGTS_miniature: "Miniature"
+ HGTS_modest: "Modest"
+ HGTS_grande: "Grande"
