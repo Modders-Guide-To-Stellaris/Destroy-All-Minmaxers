@@ -13,3 +13,4 @@ hgts_is_definitive_crisis = {
         is_level_5_player_crisis = yes
     }
 }
+

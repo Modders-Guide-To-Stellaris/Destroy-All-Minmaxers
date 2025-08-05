@@ -17,3 +17,23 @@
 
  HGTS_TOOLTIP_CRISIS_BLOCKED_DIPLOMATIC: "We've no interest in chatterin' with the kindling. We are the flame to burn the galaxy."
  HGTS_TOOLTIP_CRISIS_BLOCKED_DIPLOMATIC_FROM: "We've no business parleyin' with an empire that'd see us wiped from the world!"
+
+ edict_hgts_host_tool: "Host Tool"
+ edict_hgts_host_tool_desc: "Foxy's Supa Dupa Cheat Engine"
+
+# HOST TOOL
+ HGTS_DASHBOARD: "Host Dashboard"
+ HGTS_DASHBOARD_DESC: "It's nine o'clock on a Saturday\nThe regular crowd shuffles in\nThere's a min-maxer spawned in next to me\nAdjusting stats with his next of kin\n\nHe says 'Host, can you nerf me a build?'\nI'm not really sure how to counter\nBut it's strong and it's beating me and I thought I had him, complete,\nAtleast T'was so when I was the host\n\nLa, la-la, nerf-di-da\nLa-la, deny-his-win-tonight\n\nSing us a patch, you're the balance man\nSing us a tweak tonight!\nWell we're all in the mood for some fairness here\nBut his empire just don’t feel right\n\nWhat option will you be choosing tonight?"
+ HGTS_BACK: "Back To Dashboard"
+
+ # You got got
+ HGTS_HOST_SUMMON: "Host Summon"
+ HGTS_HOST_SUMMON_DESC: "You are being summoned by the Host for suspected rule violations.\nPlease ping the host in general chat and await further instructions."
+ HGTS_HOST_SUMMON_GESTALT: "$HGTS_HOST_SUMMON_DESC$\n\nYou are currently being investigated for playing a gestalt outside the the cap, Please note: All gestalt empires are pinged, legal and illegal."
+
+ HGTS_RULES: "Rule Enforcement"
+ GESTALT_CHECK: "Check on Gestalt Limit"
+ HGTS_GESTALT_AMOUNT: "Current Status: [gestalt_over_cap] empires over the limit"
+
+ HGTS_AGREE: "Take Action"
+ HGTS_DISAGREE: "Leave Them Be"
