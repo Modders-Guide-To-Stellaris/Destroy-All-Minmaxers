@@ -1,0 +1,38 @@
+namespace = HGTS
+
+#Crisis gets all relations wiped (womp womp, shouldnt have been T3)
+country_event = {
+    id = HGTS.100
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        AND = {
+            hgts_is_definitive_crisis = yes
+            NOT = { has_country_flag = empire_got_nuked_lol }
+        }
+    }
+
+    immediate = {
+        every_playable_country = {
+            if = {
+                limit = {
+                    NOR = {
+                        is_same_value = root
+                        has_country_flag = hgts_crisis_relations_wipe_excluded
+                    }
+                }
+                clear_relations = {
+                    relations = {
+                        commercial_pact
+                        research_agreement
+                        defensive_pact
+                        migration_access
+                    }
+                    target = root
+                }
+            }
+        }
+        set_country_flag = empire_got_nuked_lol
+    }
+}
