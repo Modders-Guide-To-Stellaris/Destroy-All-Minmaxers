@@ -9,6 +9,19 @@ country_event = {
     immediate = {
         set_country_flag = host
 
+        #Initialization
+        country_event = {
+            id = HGTS.2
+        }
+    }
+}
+
+country_event = {
+    id = HGTS.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
         set_variable = {
             value = value:hgts_gestalts_over_limit
             which = var_hgts_gestalts_over_limit
@@ -168,14 +181,416 @@ country_event = {
     }
 }
 
-#Host Cheats
+# Host Cheats
+country_event = {
+    id = HGTS.12000
+    is_triggered_only = yes
+    title = "HGTS_CRISIS_SPEEDDIAL"
+    picture = GFX_evt_khan_throne_room
+
+    option = {
+        name = HGTS_BACK
+        country_event = {
+            id = HGTS.10000
+        }
+    }
+
+    ## MIDGAME CRISIS'
+    option = {
+        allow = {
+            AND = {
+                mid_game_years_passed >= 0
+                NOT = { has_global_flag = marauder_crisis_started }
+                any_country = {
+                    is_country_type = marauder_raiders
+                }
+            }
+        }
+
+        name = "HGTS_SUMMON_KHAN"
+        country_event = {
+            id = HGTS.12100
+            random = 360
+        }
+    }
+
+    option = {
+        allow = {
+            AND = {
+                mid_game_years_passed >= 0
+                NOT = { has_global_flag = voidworms_plague_crisis_started }
+            }
+        }
+
+        name = "HGTS_RALLY_VOIDWORMS"
+        country_event = {
+            id = HGTS.12110
+            random = 360
+        }
+    }
+
+    ## ENDGAME CRISIS'
+    option = {
+        allow = {
+            AND = {
+                end_game_years_passed >= 0
+
+                NOR = {
+                    has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+                    has_global_flag = galactic_crisis_recently_fired
+                }
+            }
+        }
+
+        name = "HGTS_SUMMON_SCOURGE"
+        country_event = {
+            id = HGTS.12300
+            random = 360
+        }
+    }
+
+    option = {
+        allow = {
+            AND = {
+                end_game_years_passed >= 0
+
+                NOR = {
+                    has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+                    has_global_flag = galactic_crisis_recently_fired
+                }
+            }
+        }
+
+        name = "HGTS_SUMMON_CONTINGENCY"
+        country_event = {
+            id = HGTS.12310
+            random = 360
+        }
+    }
+
+    option = {
+        allow = {
+            AND = {
+                end_game_years_passed >= 0
+
+                NOR = {
+                    has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+                    has_global_flag = galactic_crisis_recently_fired
+                }
+            }
+        }
+
+        name = "HGTS_SUMMON_UNBIDDEN"
+        country_event = {
+            id = HGTS.12320
+            random = 360
+        }
+    }
+
+    option = {
+        allow = {
+            AND = {
+                end_game_years_passed >= 0
+                has_global_flag = extradimensional_invasion_happened
+            }
+        }
+
+        name = "HGTS_SUMMON_ABBERANT"
+        country_event = {
+            id = HGTS.12330
+            random = 360
+        }
+    }
+
+    option = {
+        allow = {
+            AND = {
+                end_game_years_passed >= 0
+                has_global_flag = extradimensional_invasion_happened
+            }
+        }
+
+        name = "HGTS_SUMMON_VEHEMENT"
+        country_event = {
+            id = HGTS.12340
+            random = 360
+        }
+    }
+
+    option = {
+        allow = {
+            AND = {
+                end_game_years_passed >= 0
+
+                AND = {
+                    any_country = {
+                        is_country_type = fallen_empire
+                        is_gestalt = no
+                    }
+                    NOT = { has_global_flag = war_in_heaven_ongoing }
+                }
+
+                NOR = {
+                    has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+                    has_global_flag = galactic_crisis_recently_fired
+                }
+            }
+        }
+
+        name = "HGTS_SUMMON_BORING_CRISIS"
+        country_event = {
+            id = HGTS.12350
+            random = 360
+        }
+    }
+
+    ## FALLEN EMPIRES
+    option = {
+        allow = {
+            AND = {
+                mid_game_years_passed >= 0
+                NOT = { has_global_flag = sleepers_awake_happened }
+                any_country = {
+                    AND = {
+                        is_country_type = fallen_empire
+                        is_gestalt = no
+                    }
+                }
+            }
+        }
+
+        name = "HGTS_AWAKEN"
+        country_event = {
+            id = HGTS.12400
+        }
+    }
+
+    # option = {
+    #     allow = {
+    #         mid_game_years_passed >= 0
+    #         fallen
+    #     }
+    #
+    #     name = "NAME_The_War_in_Heaven"
+    #     country_event = {
+    #         id = HGTS.12410
+    #         random = 180
+    #     }
+    # }
+
+    after = {
+        country_event = {
+            id = HGTS.10000
+        }
+    }
+}
+
+# I'm not making funny visuals for this
+#Khan
+country_event = {
+    id = HGTS.12100
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        random_country = {
+            limit = {
+                is_country_type = marauder_raiders
+            }
+            set_global_flag = horde_triggered
+            country_event = { id = marauder.500 }
+        }
+    }
+}
+
+#Voidworm, why, why would you want to press this button?
+country_event = {
+    id = HGTS.12110
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        random_country = {
+            limit = {
+                is_country_type = voidworms
+            }
+            country_event = { id = grand_archive.2300 }
+        }
+    }
+}
+
+#Scourge
+country_event = {
+    id = HGTS.12300
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        country_event = { id = crisis.10 days = 200 random = 800 }
+        set_global_flag = galactic_crisis_happened
+        set_timed_global_flag = {
+            flag = galactic_crisis_recently_fired
+            years = 12
+        }
+    }
+}
+
+#Contingency
+country_event = {
+    id = HGTS.12310
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        country_event = { id = crisis.2005 days = 200 random = 800 }
+        set_global_flag = galactic_crisis_happened
+        set_timed_global_flag = {
+            flag = galactic_crisis_recently_fired
+            years = 12
+        }
+    }
+}
+
+#Unbidden Pt. 1
+country_event = {
+    id = HGTS.12320
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        country_event = { id = crisis.1000 days = 200 random = 800 }
+        set_global_flag = galactic_crisis_happened
+        set_timed_global_flag = {
+            flag = galactic_crisis_recently_fired
+            years = 12
+        }
+    }
+}
+
+#Unbidden Pt. 2
+country_event = {
+    id = HGTS.12330
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+
+    }
+}
+
+#Unbidden Pt. 3
+country_event = {
+    id = HGTS.12340
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+
+    }
+}
+
+#Cetena
+country_event = {
+    id = HGTS.12350
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        country_event = { id = crisis.8005 days = 200 random = 800 }
+        set_global_flag = galactic_crisis_happened
+        set_timed_global_flag = {
+            flag = galactic_crisis_recently_fired
+            years = 12
+        }
+    }
+}
+
+#Awaken a fallen
+country_event = {
+    id = HGTS.12400
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        random_country = {
+            limit = {
+                AND = {
+                    is_fallen_empire = yes
+                    is_gestalt = no
+                }
+            }
+            country_event = { id = fallen_empires_awakening.1 }
+        }
+    }
+}
+
+# #War in Heaven
 # country_event = {
-#     id = HGTS.12000
+#     id = HGTS.12410
 #     is_triggered_only = yes
 # }
 
 # Enable/Disable Game Features
-# country_event = {
-#     id = HGTS.13000
-#     is_triggered_only = yes
-# }
+country_event = {
+    id = HGTS.13000
+    is_triggered_only = yes
+    picture = GFX_evt_financial_instruments
+
+    option = {
+        name = HGTS_BACK
+        country_event = {
+            id = HGTS.10000
+        }
+    }
+
+    option = {
+        hide_option_if_not_allowed = yes
+
+        name = HGTS_HOST_OVERRIDE_DISABLED
+        allow = {
+            NOT = { has_global_flag = HGTS_HOST_CRISIS_OVERRIDE }
+        }
+
+        country_event = {
+            id = HGTS.13100
+        }
+    }
+
+    option = {
+        hide_option_if_not_allowed = yes
+
+        name = HGTS_HOST_OVERRIDE_ENABLED
+        allow = {
+            has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+        }
+
+        country_event = {
+            id = HGTS.13100
+        }
+    }
+
+    after = {
+        country_event = {
+            id = HGTS.10000
+        }
+    }
+}
+
+country_event = {
+    id = HGTS.13100
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        switch = {
+            trigger = has_global_flag
+
+            HGTS_HOST_CRISIS_OVERRIDE = {
+                remove_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+            }
+            default = {
+                set_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+            }
+        }
+    }
+}

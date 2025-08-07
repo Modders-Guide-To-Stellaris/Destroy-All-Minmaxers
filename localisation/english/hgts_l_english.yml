@@ -38,6 +38,23 @@
  HGTS_AGREE: "Take Action"
  HGTS_DISAGREE: "Leave Them Be"
 
+ HGTS_CRISIS_SPEEDDIAL: "Call up The Crisis"
+ HGTS_SUMMON_KHAN: "Send the Khanate to the Marauders (Great Khan)" #yes this is reference to some guy starting a revolution
+ HGTS_RALLY_VOIDWORMS: "Poke the Voidworm Nest (Voidspawn)"
+ HGTS_SUMMON_SCOURGE: "Unleash the Brood (Prethoryn Scourge)"
+ HGTS_SUMMON_CONTINGENCY: "Assemble a Class-5 Singularity (Contingency)"
+ HGTS_SUMMON_UNBIDDEN: "Open the Wrong Astral Rift (The Unbidden)"
+ HGTS_SUMMON_ABBERANT: "Trigger an Aberrant Echo (The Aberrant)"
+ HGTS_SUMMON_VEHEMENT: "Invite the Vehement to Break Everything (The Vehement)"
+ HGTS_SUMMON_BORING_CRISIS: "Activate the Cetana Protocol (Cetana)"
+ HGTS_AWAKEN: "Awaken a Fallen Empire"
+
+ # HGTS_NOT_ENDGAME_OR_CRISIS_ACTIVE: "Not Endgame OR crisis recently fired."
+ HGTS_HOST_OVERRIDE_ENABLED: "§GCrisis Override (ENABLED)§!"
+ HGTS_HOST_OVERRIDE_DISABLED: "§RCrisis Override (DISABLED)§!"
+
+
+
  ## GALAXY
 
  HGTS_miniature: "Miniature"
