@@ -54,6 +54,8 @@
  # HGTS_NOT_ENDGAME_OR_CRISIS_ACTIVE: "Not Endgame OR crisis recently fired."
  HGTS_HOST_OVERRIDE_ENABLED: "§GCrisis Override (ENABLED)§!"
  HGTS_HOST_OVERRIDE_DISABLED: "§RCrisis Override (DISABLED)§!"
+ HGTS_HOST_OVERRIDE_TIME_ENABLED: "§GCrisis Time Override (ENABLED)§!"
+ HGTS_HOST_OVERRIDE_TIME_DISABLED: "§RCrisis Time Override (DISABLED)§!"
 
 
 

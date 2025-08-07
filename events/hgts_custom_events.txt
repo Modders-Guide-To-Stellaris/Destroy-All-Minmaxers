@@ -215,7 +215,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                mid_game_years_passed >= 0
+                OR = {
+                    mid_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
                 NOT = { has_global_flag = marauder_crisis_started }
                 any_country = {
                     is_country_type = marauder_raiders
@@ -233,7 +236,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                mid_game_years_passed >= 0
+                OR = {
+                    mid_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
                 NOT = { has_global_flag = voidworms_plague_crisis_started }
             }
         }
@@ -249,8 +255,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                end_game_years_passed >= 0
-
+                OR = {
+                    end_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
                 NOR = {
                     has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
                     has_global_flag = galactic_crisis_recently_fired
@@ -268,7 +276,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                end_game_years_passed >= 0
+                OR = {
+                    end_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
 
                 NOR = {
                     has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
@@ -287,7 +298,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                end_game_years_passed >= 0
+                OR = {
+                    end_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
 
                 NOR = {
                     has_global_flag = HGTS_HOST_CRISIS_OVERRIDE
@@ -306,7 +320,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                end_game_years_passed >= 0
+                OR = {
+                    end_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
                 has_global_flag = extradimensional_invasion_happened
             }
         }
@@ -321,7 +338,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                end_game_years_passed >= 0
+                OR = {
+                    end_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
                 has_global_flag = HGTS_ABBERANT_HAPPEN
             }
         }
@@ -336,7 +356,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                end_game_years_passed >= 0
+                OR = {
+                    end_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
 
                 AND = {
                     any_country = {
@@ -364,7 +387,10 @@ country_event = {
     option = {
         allow = {
             AND = {
-                mid_game_years_passed >= 0
+                OR = {
+                    end_game_years_passed >= 0
+                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+                }
                 NOT = { has_global_flag = sleepers_awake_happened }
                 any_country = {
                     AND = {
@@ -590,6 +616,32 @@ country_event = {
         }
     }
 
+    option = {
+        default_hide_option = yes
+
+        name = HGTS_HOST_OVERRIDE_TIME_DISABLED
+        allow = {
+            NOT = { has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE }
+        }
+
+        country_event = {
+            id = HGTS.13110
+        }
+    }
+
+    option = {
+        default_hide_option = yes
+
+        name = HGTS_HOST_OVERRIDE_TIME_ENABLED
+        allow = {
+            has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+        }
+
+        country_event = {
+            id = HGTS.13110
+        }
+    }
+
     after = {
         country_event = {
             id = HGTS.10000
@@ -611,6 +663,25 @@ country_event = {
             }
             default = {
                 set_global_flag = HGTS_HOST_CRISIS_OVERRIDE
+            }
+        }
+    }
+}
+
+country_event = {
+    id = HGTS.13110
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        switch = {
+            trigger = has_global_flag
+
+            HGTS_HOST_CRISIS_TIME_OVERRIDE = {
+                remove_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+            }
+            default = {
+                set_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
             }
         }
     }
