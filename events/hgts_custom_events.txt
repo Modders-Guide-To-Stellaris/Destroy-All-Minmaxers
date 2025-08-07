@@ -80,6 +80,21 @@ country_event = {
             id = HGTS.11000
         }
     }
+
+    option = {
+        name = HGTS_CRISIS_SPEEDDIAL
+        country_event = {
+            id = HGTS.12000
+        }
+    }
+
+    option = {
+        name = HGTS_HOST_GAME_FEATURES
+        country_event = {
+            id = HGTS.13000
+        }
+    }
+
     option = {
         name = CLOSE
     }
@@ -176,7 +191,7 @@ country_event = {
 
     after = {
         country_event = {
-            id = HGTS.10000
+            id = HGTS.11000
         }
     }
 }
@@ -186,6 +201,7 @@ country_event = {
     id = HGTS.12000
     is_triggered_only = yes
     title = "HGTS_CRISIS_SPEEDDIAL"
+    desc = "HGTS_CRISIS_SPEEDDIAL_DESC"
     picture = GFX_evt_khan_throne_room
 
     option = {
@@ -306,7 +322,7 @@ country_event = {
         allow = {
             AND = {
                 end_game_years_passed >= 0
-                has_global_flag = extradimensional_invasion_happened
+                has_global_flag = HGTS_ABBERANT_HAPPEN
             }
         }
 
@@ -380,7 +396,7 @@ country_event = {
 
     after = {
         country_event = {
-            id = HGTS.10000
+            id = HGTS.12000
         }
     }
 }
@@ -474,7 +490,11 @@ country_event = {
     hide_window = yes
 
     immediate = {
+        country_event = {
+            id = crisis.1100
+        }
 
+        set_global_flag = HGTS_ABBERANT_HAPPEN
     }
 }
 
@@ -485,7 +505,7 @@ country_event = {
     hide_window = yes
 
     immediate = {
-
+        country_event = { id = crisis.1111 }
     }
 }
 
@@ -534,6 +554,7 @@ country_event = {
 country_event = {
     id = HGTS.13000
     is_triggered_only = yes
+    title = "HGTS_HOST_GAME_FEATURES"
     picture = GFX_evt_financial_instruments
 
     option = {
@@ -544,7 +565,7 @@ country_event = {
     }
 
     option = {
-        hide_option_if_not_allowed = yes
+        default_hide_option = yes
 
         name = HGTS_HOST_OVERRIDE_DISABLED
         allow = {
@@ -557,7 +578,7 @@ country_event = {
     }
 
     option = {
-        hide_option_if_not_allowed = yes
+        default_hide_option = yes
 
         name = HGTS_HOST_OVERRIDE_ENABLED
         allow = {
@@ -571,7 +592,7 @@ country_event = {
 
     after = {
         country_event = {
-            id = HGTS.10000
+            id = HGTS.13000
         }
     }
 }
