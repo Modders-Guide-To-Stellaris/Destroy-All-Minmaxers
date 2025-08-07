@@ -75,6 +75,10 @@ country_event = {
     desc = "HGTS_DASHBOARD_DESC"
 
     option = {
+        name = CLOSE
+    }
+
+    option = {
         name = HGTS_RULES
         country_event = {
             id = HGTS.11000
@@ -93,10 +97,6 @@ country_event = {
         country_event = {
             id = HGTS.13000
         }
-    }
-
-    option = {
-        name = CLOSE
     }
 }
 
@@ -221,7 +221,7 @@ country_event = {
                 }
                 NOT = { has_global_flag = marauder_crisis_started }
                 any_country = {
-                    is_country_type = marauder_raiders
+                    is_country_type = dormant_marauders
                 }
             }
         }
@@ -384,28 +384,29 @@ country_event = {
     }
 
     ## FALLEN EMPIRES
-    option = {
-        allow = {
-            AND = {
-                OR = {
-                    end_game_years_passed >= 0
-                    has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
-                }
-                NOT = { has_global_flag = sleepers_awake_happened }
-                any_country = {
-                    AND = {
-                        is_country_type = fallen_empire
-                        is_gestalt = no
-                    }
-                }
-            }
-        }
+    # option = {
+    #     allow = {
+    #         AND = {
+    #             OR = {
+    #                 end_game_years_passed >= 0
+    #                 has_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
+    #             }
+    #             NOT = { has_global_flag = sleepers_awake_happened }
+    #             any_country = {
+    #                 AND = {
+    #                     is_country_type = fallen_empire
+    #                     is_gestalt = no
+    #                 }
+    #             }
+    #         }
+    #     }
 
-        name = "HGTS_AWAKEN"
-        country_event = {
-            id = HGTS.12400
-        }
-    }
+        ## disabled, doesnt work lol
+        # name = "HGTS_AWAKEN"
+        # country_event = {
+        #     id = HGTS.12400
+        # }
+    # }
 
     # option = {
     #     allow = {
@@ -437,7 +438,7 @@ country_event = {
     immediate = {
         random_country = {
             limit = {
-                is_country_type = marauder_raiders
+                is_country_type = dormant_marauders
             }
             set_global_flag = horde_triggered
             country_event = { id = marauder.500 }
@@ -551,24 +552,24 @@ country_event = {
     }
 }
 
-#Awaken a fallen
-country_event = {
-    id = HGTS.12400
-    is_triggered_only = yes
-    hide_window = yes
-
-    immediate = {
-        random_country = {
-            limit = {
-                AND = {
-                    is_fallen_empire = yes
-                    is_gestalt = no
-                }
-            }
-            country_event = { id = fallen_empires_awakening.1 }
-        }
-    }
-}
+# #Awaken a fallen
+# country_event = {
+#     id = HGTS.12400
+#     is_triggered_only = yes
+#     hide_window = yes
+#
+#     immediate = {
+#         random_country = {
+#             limit = {
+#                 AND = {
+#                     is_fallen_empire = yes
+#                     is_gestalt = no
+#                 }
+#             }
+#             country_event = { id = fallen_empires_awakening.1 }
+#         }
+#     }
+# }
 
 # #War in Heaven
 # country_event = {
