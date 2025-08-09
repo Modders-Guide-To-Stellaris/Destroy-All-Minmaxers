@@ -32,3 +32,18 @@ damn_the_consequences = {
         weight = 0
     }
 }
+
+hgts_host_tool = {
+    length = 1
+    icon = "GFX_edict_type_policy"
+
+    potential = {
+        has_country_flag = host
+    }
+
+    effect = {
+        country_event = {
+            id = HGTS.10000
+        }
+    }
+}
