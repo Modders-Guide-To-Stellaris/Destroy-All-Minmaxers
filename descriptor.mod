@@ -5,4 +5,4 @@ tags={
 }
 name="The HGTS Towel"
 supported_version="v4.*.*"
-remote_file_id="3219352531"
+remote_file_id="3487184348"
