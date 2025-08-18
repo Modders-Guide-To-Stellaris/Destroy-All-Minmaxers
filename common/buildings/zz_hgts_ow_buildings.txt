@@ -44,7 +44,7 @@ building_psi_corps = {
     }
 
     planet_modifier = {
-        job_telepath_add = 300
+        job_telepath_add = 400
         planet_stability_add = 5
     }
 
