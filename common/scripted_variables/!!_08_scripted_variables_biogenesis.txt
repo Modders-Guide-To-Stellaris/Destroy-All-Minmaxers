@@ -1,6 +1,0 @@
-# Genomic job modifiers
-@genomic_cloning_assembly = 0.5 #CHANGED FROM 1!!
-
-# Purity Authority Modifiers
-# @purity_traits_bonus_workforce_mult = 0.025
-@purity_traits_resource = 0.125 #CHANGED FROM 0.5!!
