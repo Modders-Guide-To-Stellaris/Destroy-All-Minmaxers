@@ -1,0 +1,90 @@
+hgts_set_jump_allow_allies = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        hidden_trigger = {
+            NOT = {
+                has_global_flag = hgts_jump_allow_allies
+            }
+        }
+    }
+    effect = {
+        hidden_effect = {
+            hgts_clear_jump_settings = yes
+            set_global_flag = hgts_jump_allow_allies
+        }
+    }
+}
+
+hgts_set_jump_allow_neutral = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        hidden_trigger = {
+            NOT = {
+                has_global_flag = hgts_jump_allow_neutral
+            }
+        }
+    }
+    effect = {
+        hidden_effect = {
+            hgts_clear_jump_settings = yes
+            set_global_flag = hgts_jump_allow_neutral
+        }
+    }
+}
+
+hgts_set_jump_allow_always = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        hidden_trigger = {
+            OR = {
+                has_global_flag = hgts_jump_allow_allies
+                has_global_flag = hgts_jump_allow_neutral
+            }
+        }
+    }
+    effect = {
+        hidden_effect = {
+            hgts_clear_jump_settings = yes
+        }
+    }
+}
+
+hgts_set_jump_allow_adjacent = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        hidden_trigger = {
+            NOT = {
+                has_global_flag = hgts_jump_allow_adjacent
+            }
+        }
+    }
+    effect = {
+        hidden_effect = {
+            set_global_flag = hgts_jump_allow_adjacent
+        }
+    }
+}
+
+hgts_set_jump_disallow_adjacent = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        hidden_trigger = {
+            has_global_flag = hgts_jump_allow_adjacent
+        }
+    }
+    effect = {
+        hidden_effect = {
+            remove_global_flag = hgts_jump_allow_adjacent
+        }
+    }
+}

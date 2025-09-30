@@ -1,0 +1,4 @@
+hgts_clear_jump_settings = {
+    remove_global_flag = hgts_jump_allow_allies
+    remove_global_flag = hgts_jump_allow_neutral
+}

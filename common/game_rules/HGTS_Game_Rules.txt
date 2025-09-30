@@ -1,0 +1,47 @@
+# Jump Drive rules - Definitely not yoinked
+can_enter_system_by_jump = {
+    if = {
+        limit = { has_global_flag = jump_allow_neutral }
+        OR = {
+            NOT = { hgts_partially_controlled_by_enemy_of = { enemy_of = root } }
+            if = {
+                limit = { has_global_flag = jump_allow_adjacent }
+                any_neighbor_system = {
+                    NOT = { hgts_partially_controlled_by_enemy_of = { enemy_of = root } }
+                }
+            }
+            else = { always = no }
+        }
+    }
+
+    if = {
+        limit = { has_global_flag = jump_allow_allies }
+        OR = {
+            hgts_fully_controlled_by_ally = { ally_of = root }
+            if = {
+                limit = { has_global_flag = jump_allow_adjacent }
+                any_neighbor_system = {
+                    hgts_fully_controlled_by_ally = { ally_of = root }
+                }
+            }
+            else = { always = no }
+        }
+    }
+
+    ### ==== Vanilla Checks ==== ###
+    custom_tooltip = {
+        fail_text = cannot_jump_to_system
+
+        # Sealed system
+        OR = {
+            NOT = { has_star_flag = sealed_system }
+            AND = {
+                root = { has_country_flag = entered_sealed_system }
+                has_star_flag = sealed_system
+            }
+        }
+
+        # L-Cluster
+        NOT = { has_star_flag = lcluster }
+    }
+}
