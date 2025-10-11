@@ -1,3 +1,5 @@
+@ascension_agenda_cooldown = 1080
+
 agenda_mind_over_matter = {
     agenda_cost = value:agenda_mind_over_matter_cost
     agenda_cooldown = @ascension_agenda_cooldown
