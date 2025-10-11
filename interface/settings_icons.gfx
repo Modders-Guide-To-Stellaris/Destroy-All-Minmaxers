@@ -1,6 +1,0 @@
-SPRITETYPES = {
-    spriteType = {
-        name = "HGTS_GFX_edict_type_settings"
-        textureFile = "gfx/interface/icons/menu_icon_policies.dds"
-    }
-}

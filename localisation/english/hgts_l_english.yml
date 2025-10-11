@@ -18,8 +18,8 @@
  HGTS_TOOLTIP_CRISIS_BLOCKED_DIPLOMATIC: "We've no interest in chatterin' with the kindling. We are the flame to burn the galaxy."
  HGTS_TOOLTIP_CRISIS_BLOCKED_DIPLOMATIC_FROM: "We've no business parleyin' with an empire that'd see us wiped from existance!"
 
- edict_HGTS_host_tool: "Host Tool"
- edict_HGTS_host_tool_desc: "Foxy's Supa Dupa Cheat Engine"
+ edict_hgts_host_tool: "Host Tool"
+ edict_hgts_host_tool_desc: "Foxy's Supa Dupa Cheat Engine"
 
 # HOST TOOL
  HGTS_DASHBOARD: "Host Dashboard"
@@ -64,19 +64,3 @@
  HGTS_miniature: "Miniature"
  HGTS_modest: "Modest"
  HGTS_grande: "Grande"
-
-
-## Menu Stuff
- hgts_open_settings:0 ""
- hgts_open_settings_warp:0 "Warp Settings"
- HGTS_SETTINGS_TITLE:0 "Game Rules Configuration"
- HGTS_SETTINGS_CLAIMS_TITLE:0 "In-Line Claims until:"
- HGTS_SETTINGS_JUMPS_TITLE:0 "Allow jumping to systems controlled by:"
- HGTS_SETTINGS_JUMPS_ALLOW_ADJACENT:0 "Allow jumping into adjacent systems:"
- HGTS_SETTINGS_YES:0 "§GYes§!"
- HGTS_SETTINGS_NO:0 "No"
- HGTS_SETTINGS_NEVER:0 "Never"
- HGTS_SETTINGS_ALWAYS:0 "Always"
- HGTS_SETTINGS_EVERYONE:0 "Everyone"
- HGTS_SETTINGS_NEUTRAL:0 "Neutral (§GDefault§!)"
- HGTS_SETTINGS_ALLIES:0 "Allies Only"

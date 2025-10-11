@@ -1,8 +1,3 @@
-hgts_clear_jump_settings = {
-    remove_global_flag = hgts_jump_allow_allies
-    remove_global_flag = hgts_jump_allow_neutral
-}
-
 #Fix for Void Dweller origin + tankbound giving too many pops
 void_dweller_home_planet_setup = {
 	optimize_memory

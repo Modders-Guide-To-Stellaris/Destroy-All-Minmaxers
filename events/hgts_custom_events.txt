@@ -98,13 +98,6 @@ country_event = {
             id = HGTS.13000
         }
     }
-
-    option = {
-        name = hgts_open_settings_warp
-        country_event = {
-            id = HGTS.14000
-        }
-    }
 }
 
 country_event = {
@@ -692,23 +685,5 @@ country_event = {
                 set_global_flag = HGTS_HOST_CRISIS_TIME_OVERRIDE
             }
         }
-    }
-}
-
-country_event = {
-    id = HGTS.14000
-    is_triggered_only = yes
-
-    diplomatic = yes
-    custom_gui = "hgts_settings_window"
-
-    title = "hgts_open_settings"
-    desc = "hgts_open_settings"
-
-    # The close action has to be present (but with a hidden button), otherwise the window can't close
-    option = {
-        name = "hgts_open_settings"
-        custom_gui = "hgts_settings_dummy_button"
-        default_hide_option = yes
     }
 }
