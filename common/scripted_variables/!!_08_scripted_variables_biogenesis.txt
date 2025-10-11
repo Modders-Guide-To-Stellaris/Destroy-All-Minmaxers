@@ -1,2 +1,3 @@
 # Genomic job modifiers
 @genomic_cloning_assembly = 0.5 #CHANGED FROM 1!!
+@genomic_cloning_assembly_healthcare = 1
