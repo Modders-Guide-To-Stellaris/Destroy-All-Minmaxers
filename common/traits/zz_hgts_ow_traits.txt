@@ -26,8 +26,4 @@ trait_nascent_stage = {
     }
 
     initial = no
-
-    species_potential_add = {
-        always = no
-    }
 }
