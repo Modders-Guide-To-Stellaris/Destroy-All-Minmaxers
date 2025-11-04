@@ -99,3 +99,36 @@ hgts_excluded_blocker_count = {
     add = value:hgts_shroud_stone_count
     add = value:hgts_shroud_farm_count
 }
+
+hgts_total_pops_on_planet = {
+    complex_trigger_modifier = {
+        trigger = count_owned_pop_amount
+        trigger_scope = planet
+        parameters = {
+            ##shouldnt NEED parameters
+        }
+        mode = add
+    }
+}
+
+hgts_total_nascentchild_pops_on_planet = {
+    complex_trigger_modifier = {
+        trigger = count_owned_pop_amount
+        trigger_scope = planet
+        parameters = {
+            limit = {
+                AND = {
+                    is_sapient = no
+                    has_trait = hgts_better_nascent
+                }
+            }
+        }
+        mode = add
+    }
+}
+
+hgts_child_ratio = {
+    base = 0
+    add = value:hgts_total_nascentchild_pops_on_planet
+    divide = value:hgts_total_pops_on_planet
+}

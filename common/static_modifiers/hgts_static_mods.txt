@@ -1,0 +1,5 @@
+hgts_childguidance = {
+    pop_bonus_workforce_mult = -1 #is negative bonus :P
+}
+
+
