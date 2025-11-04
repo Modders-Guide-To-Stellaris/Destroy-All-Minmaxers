@@ -86,6 +86,11 @@ planet_event = {
                         is_deposit_type = d_valley_of_zanaam
                         is_deposit_type = d_wetware_computer
                         is_deposit_type = d_weapon_extraction_facility
+
+                        is_deposit_type = d_shroudfall
+                        is_deposit_type = d_shroudgate
+                        is_deposit_type = d_shroudstone
+                        is_deposit_type = d_aura_blocker
                         has_deposit_flag = keep_deposit_on_terraform
                     }
                 }
@@ -225,6 +230,11 @@ planet_event = {
                         is_deposit_type = d_valley_of_zanaam
                         is_deposit_type = d_wetware_computer
                         is_deposit_type = d_weapon_extraction_facility
+
+                        is_deposit_type = d_shroudfall
+                        is_deposit_type = d_shroudgate
+                        is_deposit_type = d_shroudstone
+                        is_deposit_type = d_aura_blocker
                     }
                 }
                 remove_deposit = yes
