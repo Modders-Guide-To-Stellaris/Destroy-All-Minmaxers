@@ -117,7 +117,10 @@ hgts_total_nascentchild_pops_on_planet = {
         trigger_scope = planet
         parameters = {
             limit = {
-                has_trait = hgts_better_nascent
+                AND = {
+                    is_sapient = no
+                    has_trait = hgts_better_nascent
+                }
             }
         }
         mode = add
