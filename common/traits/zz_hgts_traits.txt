@@ -1,27 +1,3 @@
-hgts_better_nascent = {
-    host_has_dlc = "BioGenesis"
-    cost = -2
-    species_potential_add = {
-        always = no
-    }
-    portrait_override = { fun16 fun4 lith_human pla17 aqu5 mindwarden_01 }
-    opposites = { "trait_slow_breeders" "trait_humanoid_psychological_infertility" "trait_unplugged_cybernetic_positives_3" "trait_unplugged_cybernetic_positives_2" "trait_unplugged_cybernetic_positives_1" "trait_pathogenic_genes" "trait_wilderness" }
-    allowed_archetypes = { BIOLOGICAL LITHOID }
-    species_class = { HUM MAM REP ART }
-    localized_tags = {
-        SPECIES_TRAIT_ARTHROPOID
-        SPECIES_TRAIT_HUMANOID
-        SPECIES_TRAIT_MAMMALIAN
-        SPECIES_TRAIT_REPTILIAN
-    }
-    species_class_override = {
-        hidden_trigger = {
-            can_add_or_remove_phenotype_traits = yes
-        }
-    }
-    tags = { organic negative pop_growth humanoid mammalian reptilian arthropoid species }
-    custom_tooltip = trait_hgts_nascent_stage
-    slave_cost = {
-        energy = -1000
-    }
-}
+# hgts_better_nascent = {
+#
+# }

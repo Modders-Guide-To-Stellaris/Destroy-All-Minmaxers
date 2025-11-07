@@ -64,9 +64,3 @@
  HGTS_miniature: "Miniature"
  HGTS_modest: "Modest"
  HGTS_grande: "Grande"
-
-
- ## TRAITS
- hgts_better_nascent: "Nascen't Stage"
- hgts_better_nascent_desc: "$trait_nascent_stage_desc$"
- trait_hgts_nascent_stage: "Nascent stage, NOW IMPROVED!!\nEver had the issue of your pops growing 5 years slower? Well not to worry, no matter the status of your pop, THEY. CAN. WORK!\nThe new and improved version of nascent stage applies a debuff depending on the monthly growth of pops with this trait."

@@ -3,9 +3,3 @@ on_game_start_country = {
         HGTS.1
     }
 }
-
-on_colony_monthly_pulse = {
-    events = {
-        HGTS_COL.1
-    }
-}
