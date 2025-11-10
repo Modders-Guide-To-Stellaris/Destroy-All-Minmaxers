@@ -13,7 +13,7 @@ hgts_is_definitive_crisis = {
             is_level_4_player_crisis = yes
             is_level_5_player_crisis = yes
         }
-        has_country_flag = reached_eotc_situation_stage2
+        has_country_flag = unlock_accord_distortion
     }
 }
 
