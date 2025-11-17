@@ -44,8 +44,8 @@ terraform_link = {
 		category = terraforming_ocean
 		inline_script = {
 			script = terraform/triggered_costs
-			ENERGY_COST = @basicTypeCost
-			BIOMASS_COST = @basicBiomassCost
+			ENERGY_COST = 2000
+			BIOMASS_COST = 1000
 		}
 	}
 
