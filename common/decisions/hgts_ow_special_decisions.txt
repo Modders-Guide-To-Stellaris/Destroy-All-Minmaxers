@@ -52,9 +52,10 @@ decision_arcology_project = {
         # Make city-planet
         custom_tooltip = decision_arcology_project_effects
         hidden_effect = {
-            save_deposits = yes
-            clear_deposits = yes
-            restore_saved_deposits = yes
+            #Why clear deposits twice? Why Paradox?
+            # save_deposits = yes
+            # clear_deposits = yes
+            # restore_saved_deposits = yes
             change_pc = pc_city
             relic_world_conversion_effect = {
                 DISTRICT = district_arcology_housing
@@ -131,9 +132,10 @@ decision_arcology_project_relic = {
         # Make city-planet
         custom_tooltip = decision_arcology_project_effects
         hidden_effect = {
-            save_deposits = yes
-            clear_deposits = yes
-            restore_saved_deposits = yes
+            # Why clear deposits twice? Why Paradox?
+            # save_deposits = yes
+            # clear_deposits = yes
+            # restore_saved_deposits = yes
             change_pc = pc_city
             relic_world_conversion_effect = {
                 DISTRICT = district_arcology_housing
