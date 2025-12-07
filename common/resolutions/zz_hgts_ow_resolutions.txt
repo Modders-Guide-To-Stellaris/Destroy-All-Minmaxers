@@ -125,7 +125,6 @@ resolution_declare_crisis = {
 
     ai_weight = {
         base = 0
-        max = 0
     }
 }
 #imperium vv
@@ -213,6 +212,5 @@ resolution_declare_crisis_empire = {
 
     ai_weight = {
         base = 0
-        max = 0
     }
 }
