@@ -57,10 +57,16 @@
  HGTS_HOST_OVERRIDE_TIME_ENABLED: "§GCrisis Time Override (ENABLED)§!"
  HGTS_HOST_OVERRIDE_TIME_DISABLED: "§RCrisis Time Override (DISABLED)§!"
 
-
-
  ## GALAXY
 
  HGTS_miniature: "Miniature"
  HGTS_modest: "Modest"
  HGTS_grande: "Grande"
+
+## tech
+
+ hgts_tech_detox: "Detoxing Worlds"
+ hgts_tech_detox_desc: "Basically a dehumidifier, for toxic gas...\nDoes the detox thing. Soncio said this was important."
+
+ HGTS_TECH_UNLOCK_TERRAFORMING_NUKED_CHANGE_TITLE:2 "§HUnlocks Feature:§! Terraforming Toxic"
+ HGTS_TECH_UNLOCK_TERRAFORMING_NUKED_CHANGE_DESC:3 "§HTerraforming Toxic§!\nAllows us to terraform toxic worlds."
