@@ -74,6 +74,6 @@ agenda_mind_over_matter = {
         }
     }
 	ai_weight = {
-		base = @ascension_tech_agenda_weight
+		base = 100
 	}
 }
