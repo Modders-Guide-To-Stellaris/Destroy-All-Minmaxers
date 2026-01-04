@@ -1,4 +1,4 @@
-hgts_tech_detox = {
+tech_hgts_detox = {
     cost = 20000
     area = society
     tier = 5
